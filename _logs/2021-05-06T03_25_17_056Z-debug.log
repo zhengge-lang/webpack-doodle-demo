@@ -1,0 +1,1293 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'html-webpack-plugin'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.16.0
+4 verbose npm-session 662cd5fb39d5cd8f
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 http fetch GET 200 https://registry.npm.taobao.org/html-webpack-plugin 200ms
+8 silly pacote tag manifest for html-webpack-plugin@latest fetched in 224ms
+9 timing stage:loadCurrentTree Completed in 506ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 2ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 156ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule html-webpack-plugin@5.3.1 checking installable status
+17 http fetch GET 200 https://registry.npm.taobao.org/@types%2fhtml-minifier-terser 40ms
+18 silly pacote range manifest for @types/html-minifier-terser@^5.0.0 fetched in 54ms
+19 silly resolveWithNewModule @types/html-minifier-terser@5.1.1 checking installable status
+20 http fetch GET 200 https://registry.npm.taobao.org/html-minifier-terser 79ms
+21 http fetch GET 200 https://registry.npm.taobao.org/pretty-error 83ms
+22 http fetch GET 200 https://registry.npm.taobao.org/lodash 86ms
+23 silly pacote range manifest for html-minifier-terser@^5.0.1 fetched in 90ms
+24 silly resolveWithNewModule html-minifier-terser@5.1.1 checking installable status
+25 silly pacote range manifest for pretty-error@^2.1.1 fetched in 96ms
+26 silly resolveWithNewModule pretty-error@2.1.2 checking installable status
+27 silly pacote range manifest for lodash@^4.17.20 fetched in 97ms
+28 silly resolveWithNewModule lodash@4.17.21 checking installable status
+29 http fetch GET 200 https://registry.npm.taobao.org/he 91ms
+30 http fetch GET 200 https://registry.npm.taobao.org/param-case 93ms
+31 http fetch GET 200 https://registry.npm.taobao.org/camel-case 98ms
+32 http fetch GET 200 https://registry.npm.taobao.org/clean-css 103ms
+33 http fetch GET 200 https://registry.npm.taobao.org/relateurl 125ms
+34 silly pacote range manifest for param-case@^3.0.3 fetched in 126ms
+35 silly resolveWithNewModule param-case@3.0.4 checking installable status
+36 silly pacote range manifest for he@^1.2.0 fetched in 128ms
+37 silly resolveWithNewModule he@1.2.0 checking installable status
+38 silly pacote range manifest for camel-case@^4.1.1 fetched in 131ms
+39 silly resolveWithNewModule camel-case@4.1.2 checking installable status
+40 silly pacote range manifest for clean-css@^4.2.3 fetched in 132ms
+41 silly resolveWithNewModule clean-css@4.2.3 checking installable status
+42 http fetch GET 304 https://registry.npm.taobao.org/commander 136ms (from cache)
+43 http fetch GET 304 https://registry.npm.taobao.org/terser 139ms (from cache)
+44 silly pacote range manifest for relateurl@^0.2.7 fetched in 145ms
+45 silly resolveWithNewModule relateurl@0.2.7 checking installable status
+46 silly pacote range manifest for commander@^4.1.1 fetched in 149ms
+47 silly resolveWithNewModule commander@4.1.1 checking installable status
+48 silly pacote range manifest for terser@^4.6.3 fetched in 148ms
+49 silly resolveWithNewModule terser@4.8.0 checking installable status
+50 http fetch GET 200 https://registry.npm.taobao.org/tslib 27ms
+51 http fetch GET 200 https://registry.npm.taobao.org/pascal-case 29ms
+52 silly pacote range manifest for tslib@^2.0.3 fetched in 33ms
+53 silly resolveWithNewModule tslib@2.2.0 checking installable status
+54 silly pacote range manifest for pascal-case@^3.1.2 fetched in 35ms
+55 silly resolveWithNewModule pascal-case@3.1.2 checking installable status
+56 http fetch GET 200 https://registry.npm.taobao.org/no-case 31ms
+57 silly pacote range manifest for no-case@^3.0.4 fetched in 67ms
+58 silly resolveWithNewModule no-case@3.0.4 checking installable status
+59 http fetch GET 200 https://registry.npm.taobao.org/lower-case 19ms
+60 silly pacote range manifest for lower-case@^2.0.2 fetched in 24ms
+61 silly resolveWithNewModule lower-case@2.0.2 checking installable status
+62 http fetch GET 200 https://registry.npm.taobao.org/dot-case 52ms
+63 silly pacote range manifest for dot-case@^3.0.4 fetched in 81ms
+64 silly resolveWithNewModule dot-case@3.0.4 checking installable status
+65 silly pacote range manifest for commander@^2.20.0 fetched in 4ms
+66 silly resolveWithNewModule commander@2.20.3 checking installable status
+67 http fetch GET 200 https://registry.npm.taobao.org/renderkid 37ms
+68 silly pacote range manifest for renderkid@^2.0.4 fetched in 50ms
+69 silly resolveWithNewModule renderkid@2.0.5 checking installable status
+70 http fetch GET 200 https://registry.npm.taobao.org/dom-converter 38ms
+71 http fetch GET 200 https://registry.npm.taobao.org/strip-ansi 42ms
+72 http fetch GET 200 https://registry.npm.taobao.org/css-select 45ms
+73 http fetch GET 200 https://registry.npm.taobao.org/htmlparser2 45ms
+74 silly pacote range manifest for dom-converter@^0.2 fetched in 51ms
+75 silly resolveWithNewModule dom-converter@0.2.0 checking installable status
+76 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 51ms
+77 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+78 silly pacote range manifest for css-select@^2.0.2 fetched in 53ms
+79 silly resolveWithNewModule css-select@2.1.0 checking installable status
+80 silly pacote range manifest for htmlparser2@^3.10.1 fetched in 53ms
+81 silly resolveWithNewModule htmlparser2@3.10.1 checking installable status
+82 http fetch GET 200 https://registry.npm.taobao.org/domutils 37ms
+83 http fetch GET 200 https://registry.npm.taobao.org/css-what 40ms
+84 http fetch GET 200 https://registry.npm.taobao.org/boolbase 41ms
+85 http fetch GET 200 https://registry.npm.taobao.org/nth-check 41ms
+86 silly pacote range manifest for domutils@^1.7.0 fetched in 50ms
+87 silly resolveWithNewModule domutils@1.7.0 checking installable status
+88 silly pacote range manifest for css-what@^3.2.1 fetched in 51ms
+89 silly resolveWithNewModule css-what@3.4.2 checking installable status
+90 silly pacote range manifest for boolbase@^1.0.0 fetched in 52ms
+91 silly resolveWithNewModule boolbase@1.0.0 checking installable status
+92 silly pacote range manifest for nth-check@^1.0.2 fetched in 52ms
+93 silly resolveWithNewModule nth-check@1.0.2 checking installable status
+94 http fetch GET 200 https://registry.npm.taobao.org/domelementtype 31ms
+95 http fetch GET 200 https://registry.npm.taobao.org/dom-serializer 34ms
+96 silly pacote range manifest for domelementtype@1 fetched in 42ms
+97 silly resolveWithNewModule domelementtype@1.3.1 checking installable status
+98 silly pacote range manifest for dom-serializer@0 fetched in 44ms
+99 silly resolveWithNewModule dom-serializer@0.2.2 checking installable status
+100 silly pacote range manifest for domelementtype@^2.0.1 fetched in 5ms
+101 silly resolveWithNewModule domelementtype@2.2.0 checking installable status
+102 http fetch GET 200 https://registry.npm.taobao.org/entities 33ms
+103 silly pacote range manifest for entities@^2.0.0 fetched in 40ms
+104 silly resolveWithNewModule entities@2.2.0 checking installable status
+105 http fetch GET 200 https://registry.npm.taobao.org/utila 31ms
+106 silly pacote range manifest for utila@~0.4 fetched in 40ms
+107 silly resolveWithNewModule utila@0.4.0 checking installable status
+108 silly pacote range manifest for entities@^1.1.1 fetched in 9ms
+109 silly resolveWithNewModule entities@1.1.2 checking installable status
+110 http fetch GET 200 https://registry.npm.taobao.org/inherits 46ms
+111 silly pacote range manifest for inherits@^2.0.1 fetched in 56ms
+112 silly resolveWithNewModule inherits@2.0.4 checking installable status
+113 http fetch GET 200 https://registry.npm.taobao.org/domhandler 58ms
+114 http fetch GET 200 https://registry.npm.taobao.org/readable-stream 57ms
+115 silly pacote range manifest for domhandler@^2.3.0 fetched in 63ms
+116 silly resolveWithNewModule domhandler@2.4.2 checking installable status
+117 silly pacote range manifest for readable-stream@^3.1.1 fetched in 63ms
+118 silly resolveWithNewModule readable-stream@3.6.0 checking installable status
+119 http fetch GET 200 https://registry.npm.taobao.org/string_decoder 29ms
+120 http fetch GET 200 https://registry.npm.taobao.org/util-deprecate 33ms
+121 silly pacote range manifest for string_decoder@^1.1.1 fetched in 37ms
+122 silly resolveWithNewModule string_decoder@1.3.0 checking installable status
+123 silly pacote range manifest for util-deprecate@^1.0.1 fetched in 39ms
+124 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+125 http fetch GET 200 https://registry.npm.taobao.org/ansi-regex 20ms
+126 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 24ms
+127 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+128 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 1074ms
+129 timing stage:loadIdealTree Completed in 1285ms
+130 silly currentTree webpack-demo@1.0.0
+130 silly currentTree +-- @discoveryjs/json-ext@0.5.2
+130 silly currentTree +-- @types/eslint-scope@3.7.0
+130 silly currentTree +-- @types/eslint@7.2.10
+130 silly currentTree +-- @types/estree@0.0.47
+130 silly currentTree +-- @types/json-schema@7.0.7
+130 silly currentTree +-- @types/node@15.0.0
+130 silly currentTree +-- @webassemblyjs/ast@1.11.0
+130 silly currentTree +-- @webassemblyjs/floating-point-hex-parser@1.11.0
+130 silly currentTree +-- @webassemblyjs/helper-api-error@1.11.0
+130 silly currentTree +-- @webassemblyjs/helper-buffer@1.11.0
+130 silly currentTree +-- @webassemblyjs/helper-numbers@1.11.0
+130 silly currentTree +-- @webassemblyjs/helper-wasm-bytecode@1.11.0
+130 silly currentTree +-- @webassemblyjs/helper-wasm-section@1.11.0
+130 silly currentTree +-- @webassemblyjs/ieee754@1.11.0
+130 silly currentTree +-- @webassemblyjs/leb128@1.11.0
+130 silly currentTree +-- @webassemblyjs/utf8@1.11.0
+130 silly currentTree +-- @webassemblyjs/wasm-edit@1.11.0
+130 silly currentTree +-- @webassemblyjs/wasm-gen@1.11.0
+130 silly currentTree +-- @webassemblyjs/wasm-opt@1.11.0
+130 silly currentTree +-- @webassemblyjs/wasm-parser@1.11.0
+130 silly currentTree +-- @webassemblyjs/wast-printer@1.11.0
+130 silly currentTree +-- @webpack-cli/configtest@1.0.2
+130 silly currentTree +-- @webpack-cli/info@1.2.3
+130 silly currentTree +-- @webpack-cli/serve@1.3.1
+130 silly currentTree +-- @xtuc/ieee754@1.2.0
+130 silly currentTree +-- @xtuc/long@4.2.2
+130 silly currentTree +-- acorn@8.2.1
+130 silly currentTree +-- ajv-keywords@3.5.2
+130 silly currentTree +-- ajv@6.12.6
+130 silly currentTree +-- ansi-colors@4.1.1
+130 silly currentTree +-- browserslist@4.16.5
+130 silly currentTree +-- buffer-from@1.1.1
+130 silly currentTree +-- caniuse-lite@1.0.30001218
+130 silly currentTree +-- chrome-trace-event@1.0.3
+130 silly currentTree +-- clone-deep@4.0.1
+130 silly currentTree +-- colorette@1.2.2
+130 silly currentTree +-- commander@2.20.3
+130 silly currentTree +-- cross-spawn@7.0.3
+130 silly currentTree +-- electron-to-chromium@1.3.722
+130 silly currentTree +-- enhanced-resolve@5.8.0
+130 silly currentTree +-- enquirer@2.3.6
+130 silly currentTree +-- envinfo@7.8.1
+130 silly currentTree +-- es-module-lexer@0.4.1
+130 silly currentTree +-- escalade@3.1.1
+130 silly currentTree +-- eslint-scope@5.1.1
+130 silly currentTree +-- esrecurse@4.3.0
+130 silly currentTree | `-- estraverse@5.2.0
+130 silly currentTree +-- estraverse@4.3.0
+130 silly currentTree +-- events@3.3.0
+130 silly currentTree +-- execa@5.0.0
+130 silly currentTree +-- fast-deep-equal@3.1.3
+130 silly currentTree +-- fast-json-stable-stringify@2.1.0
+130 silly currentTree +-- fastest-levenshtein@1.0.12
+130 silly currentTree +-- find-up@4.1.0
+130 silly currentTree +-- function-bind@1.1.1
+130 silly currentTree +-- get-stream@6.0.1
+130 silly currentTree +-- glob-to-regexp@0.4.1
+130 silly currentTree +-- graceful-fs@4.2.6
+130 silly currentTree +-- has-flag@4.0.0
+130 silly currentTree +-- has@1.0.3
+130 silly currentTree +-- human-signals@2.1.0
+130 silly currentTree +-- import-local@3.0.2
+130 silly currentTree +-- interpret@2.2.0
+130 silly currentTree +-- is-core-module@2.3.0
+130 silly currentTree +-- is-plain-object@2.0.4
+130 silly currentTree +-- is-stream@2.0.0
+130 silly currentTree +-- isexe@2.0.0
+130 silly currentTree +-- isobject@3.0.1
+130 silly currentTree +-- jest-worker@26.6.2
+130 silly currentTree +-- json-parse-better-errors@1.0.2
+130 silly currentTree +-- json-schema-traverse@0.4.1
+130 silly currentTree +-- kind-of@6.0.3
+130 silly currentTree +-- loader-runner@4.2.0
+130 silly currentTree +-- locate-path@5.0.0
+130 silly currentTree +-- merge-stream@2.0.0
+130 silly currentTree +-- mime-db@1.47.0
+130 silly currentTree +-- mime-types@2.1.30
+130 silly currentTree +-- mimic-fn@2.1.0
+130 silly currentTree +-- neo-async@2.6.2
+130 silly currentTree +-- node-releases@1.1.71
+130 silly currentTree +-- npm-run-path@4.0.1
+130 silly currentTree +-- onetime@5.1.2
+130 silly currentTree +-- p-limit@3.1.0
+130 silly currentTree +-- p-locate@4.1.0
+130 silly currentTree | `-- p-limit@2.3.0
+130 silly currentTree +-- p-try@2.2.0
+130 silly currentTree +-- path-exists@4.0.0
+130 silly currentTree +-- path-key@3.1.1
+130 silly currentTree +-- path-parse@1.0.6
+130 silly currentTree +-- pkg-dir@4.2.0
+130 silly currentTree +-- punycode@2.1.1
+130 silly currentTree +-- randombytes@2.1.0
+130 silly currentTree +-- rechoir@0.7.0
+130 silly currentTree +-- resolve-cwd@3.0.0
+130 silly currentTree +-- resolve-from@5.0.0
+130 silly currentTree +-- resolve@1.20.0
+130 silly currentTree +-- safe-buffer@5.2.1
+130 silly currentTree +-- schema-utils@3.0.0
+130 silly currentTree +-- serialize-javascript@5.0.1
+130 silly currentTree +-- shallow-clone@3.0.1
+130 silly currentTree +-- shebang-command@2.0.0
+130 silly currentTree +-- shebang-regex@3.0.0
+130 silly currentTree +-- signal-exit@3.0.3
+130 silly currentTree +-- source-list-map@2.0.1
+130 silly currentTree +-- source-map-support@0.5.19
+130 silly currentTree +-- source-map@0.6.1
+130 silly currentTree +-- strip-final-newline@2.0.0
+130 silly currentTree +-- supports-color@7.2.0
+130 silly currentTree +-- tapable@2.2.0
+130 silly currentTree +-- terser-webpack-plugin@5.1.1
+130 silly currentTree +-- terser@5.7.0
+130 silly currentTree | `-- source-map@0.7.3
+130 silly currentTree +-- uri-js@4.4.1
+130 silly currentTree +-- v8-compile-cache@2.3.0
+130 silly currentTree +-- watchpack@2.1.1
+130 silly currentTree +-- webpack-cli@4.6.0
+130 silly currentTree | `-- commander@7.2.0
+130 silly currentTree +-- webpack-merge@5.7.3
+130 silly currentTree +-- webpack-sources@2.2.0
+130 silly currentTree +-- webpack@5.35.1
+130 silly currentTree +-- which@2.0.2
+130 silly currentTree +-- wildcard@2.0.0
+130 silly currentTree `-- yocto-queue@0.1.0
+131 silly idealTree webpack-demo@1.0.0
+131 silly idealTree +-- @discoveryjs/json-ext@0.5.2
+131 silly idealTree +-- @types/eslint-scope@3.7.0
+131 silly idealTree +-- @types/eslint@7.2.10
+131 silly idealTree +-- @types/estree@0.0.47
+131 silly idealTree +-- @types/html-minifier-terser@5.1.1
+131 silly idealTree +-- @types/json-schema@7.0.7
+131 silly idealTree +-- @types/node@15.0.0
+131 silly idealTree +-- @webassemblyjs/ast@1.11.0
+131 silly idealTree +-- @webassemblyjs/floating-point-hex-parser@1.11.0
+131 silly idealTree +-- @webassemblyjs/helper-api-error@1.11.0
+131 silly idealTree +-- @webassemblyjs/helper-buffer@1.11.0
+131 silly idealTree +-- @webassemblyjs/helper-numbers@1.11.0
+131 silly idealTree +-- @webassemblyjs/helper-wasm-bytecode@1.11.0
+131 silly idealTree +-- @webassemblyjs/helper-wasm-section@1.11.0
+131 silly idealTree +-- @webassemblyjs/ieee754@1.11.0
+131 silly idealTree +-- @webassemblyjs/leb128@1.11.0
+131 silly idealTree +-- @webassemblyjs/utf8@1.11.0
+131 silly idealTree +-- @webassemblyjs/wasm-edit@1.11.0
+131 silly idealTree +-- @webassemblyjs/wasm-gen@1.11.0
+131 silly idealTree +-- @webassemblyjs/wasm-opt@1.11.0
+131 silly idealTree +-- @webassemblyjs/wasm-parser@1.11.0
+131 silly idealTree +-- @webassemblyjs/wast-printer@1.11.0
+131 silly idealTree +-- @webpack-cli/configtest@1.0.2
+131 silly idealTree +-- @webpack-cli/info@1.2.3
+131 silly idealTree +-- @webpack-cli/serve@1.3.1
+131 silly idealTree +-- @xtuc/ieee754@1.2.0
+131 silly idealTree +-- @xtuc/long@4.2.2
+131 silly idealTree +-- acorn@8.2.1
+131 silly idealTree +-- ajv-keywords@3.5.2
+131 silly idealTree +-- ajv@6.12.6
+131 silly idealTree +-- ansi-colors@4.1.1
+131 silly idealTree +-- ansi-regex@2.1.1
+131 silly idealTree +-- boolbase@1.0.0
+131 silly idealTree +-- browserslist@4.16.5
+131 silly idealTree +-- buffer-from@1.1.1
+131 silly idealTree +-- camel-case@4.1.2
+131 silly idealTree +-- caniuse-lite@1.0.30001218
+131 silly idealTree +-- chrome-trace-event@1.0.3
+131 silly idealTree +-- clean-css@4.2.3
+131 silly idealTree +-- clone-deep@4.0.1
+131 silly idealTree +-- colorette@1.2.2
+131 silly idealTree +-- commander@2.20.3
+131 silly idealTree +-- cross-spawn@7.0.3
+131 silly idealTree +-- css-select@2.1.0
+131 silly idealTree +-- css-what@3.4.2
+131 silly idealTree +-- dom-converter@0.2.0
+131 silly idealTree +-- dom-serializer@0.2.2
+131 silly idealTree | `-- domelementtype@2.2.0
+131 silly idealTree +-- domelementtype@1.3.1
+131 silly idealTree +-- domhandler@2.4.2
+131 silly idealTree +-- domutils@1.7.0
+131 silly idealTree +-- dot-case@3.0.4
+131 silly idealTree +-- electron-to-chromium@1.3.722
+131 silly idealTree +-- enhanced-resolve@5.8.0
+131 silly idealTree +-- enquirer@2.3.6
+131 silly idealTree +-- entities@2.2.0
+131 silly idealTree +-- envinfo@7.8.1
+131 silly idealTree +-- es-module-lexer@0.4.1
+131 silly idealTree +-- escalade@3.1.1
+131 silly idealTree +-- eslint-scope@5.1.1
+131 silly idealTree +-- esrecurse@4.3.0
+131 silly idealTree | `-- estraverse@5.2.0
+131 silly idealTree +-- estraverse@4.3.0
+131 silly idealTree +-- events@3.3.0
+131 silly idealTree +-- execa@5.0.0
+131 silly idealTree +-- fast-deep-equal@3.1.3
+131 silly idealTree +-- fast-json-stable-stringify@2.1.0
+131 silly idealTree +-- fastest-levenshtein@1.0.12
+131 silly idealTree +-- find-up@4.1.0
+131 silly idealTree +-- function-bind@1.1.1
+131 silly idealTree +-- get-stream@6.0.1
+131 silly idealTree +-- glob-to-regexp@0.4.1
+131 silly idealTree +-- graceful-fs@4.2.6
+131 silly idealTree +-- has-flag@4.0.0
+131 silly idealTree +-- has@1.0.3
+131 silly idealTree +-- he@1.2.0
+131 silly idealTree +-- html-minifier-terser@5.1.1
+131 silly idealTree | +-- commander@4.1.1
+131 silly idealTree | `-- terser@4.8.0
+131 silly idealTree |   `-- commander@2.20.3
+131 silly idealTree +-- html-webpack-plugin@5.3.1
+131 silly idealTree +-- htmlparser2@3.10.1
+131 silly idealTree | `-- entities@1.1.2
+131 silly idealTree +-- human-signals@2.1.0
+131 silly idealTree +-- import-local@3.0.2
+131 silly idealTree +-- inherits@2.0.4
+131 silly idealTree +-- interpret@2.2.0
+131 silly idealTree +-- is-core-module@2.3.0
+131 silly idealTree +-- is-plain-object@2.0.4
+131 silly idealTree +-- is-stream@2.0.0
+131 silly idealTree +-- isexe@2.0.0
+131 silly idealTree +-- isobject@3.0.1
+131 silly idealTree +-- jest-worker@26.6.2
+131 silly idealTree +-- json-parse-better-errors@1.0.2
+131 silly idealTree +-- json-schema-traverse@0.4.1
+131 silly idealTree +-- kind-of@6.0.3
+131 silly idealTree +-- loader-runner@4.2.0
+131 silly idealTree +-- locate-path@5.0.0
+131 silly idealTree +-- lodash@4.17.21
+131 silly idealTree +-- lower-case@2.0.2
+131 silly idealTree +-- merge-stream@2.0.0
+131 silly idealTree +-- mime-db@1.47.0
+131 silly idealTree +-- mime-types@2.1.30
+131 silly idealTree +-- mimic-fn@2.1.0
+131 silly idealTree +-- neo-async@2.6.2
+131 silly idealTree +-- no-case@3.0.4
+131 silly idealTree +-- node-releases@1.1.71
+131 silly idealTree +-- npm-run-path@4.0.1
+131 silly idealTree +-- nth-check@1.0.2
+131 silly idealTree +-- onetime@5.1.2
+131 silly idealTree +-- p-limit@3.1.0
+131 silly idealTree +-- p-locate@4.1.0
+131 silly idealTree | `-- p-limit@2.3.0
+131 silly idealTree +-- p-try@2.2.0
+131 silly idealTree +-- param-case@3.0.4
+131 silly idealTree +-- pascal-case@3.1.2
+131 silly idealTree +-- path-exists@4.0.0
+131 silly idealTree +-- path-key@3.1.1
+131 silly idealTree +-- path-parse@1.0.6
+131 silly idealTree +-- pkg-dir@4.2.0
+131 silly idealTree +-- pretty-error@2.1.2
+131 silly idealTree +-- punycode@2.1.1
+131 silly idealTree +-- randombytes@2.1.0
+131 silly idealTree +-- readable-stream@3.6.0
+131 silly idealTree +-- rechoir@0.7.0
+131 silly idealTree +-- relateurl@0.2.7
+131 silly idealTree +-- renderkid@2.0.5
+131 silly idealTree +-- resolve-cwd@3.0.0
+131 silly idealTree +-- resolve-from@5.0.0
+131 silly idealTree +-- resolve@1.20.0
+131 silly idealTree +-- safe-buffer@5.2.1
+131 silly idealTree +-- schema-utils@3.0.0
+131 silly idealTree +-- serialize-javascript@5.0.1
+131 silly idealTree +-- shallow-clone@3.0.1
+131 silly idealTree +-- shebang-command@2.0.0
+131 silly idealTree +-- shebang-regex@3.0.0
+131 silly idealTree +-- signal-exit@3.0.3
+131 silly idealTree +-- source-list-map@2.0.1
+131 silly idealTree +-- source-map-support@0.5.19
+131 silly idealTree +-- source-map@0.6.1
+131 silly idealTree +-- string_decoder@1.3.0
+131 silly idealTree +-- strip-ansi@3.0.1
+131 silly idealTree +-- strip-final-newline@2.0.0
+131 silly idealTree +-- supports-color@7.2.0
+131 silly idealTree +-- tapable@2.2.0
+131 silly idealTree +-- terser-webpack-plugin@5.1.1
+131 silly idealTree +-- terser@5.7.0
+131 silly idealTree | `-- source-map@0.7.3
+131 silly idealTree +-- tslib@2.2.0
+131 silly idealTree +-- uri-js@4.4.1
+131 silly idealTree +-- util-deprecate@1.0.2
+131 silly idealTree +-- utila@0.4.0
+131 silly idealTree +-- v8-compile-cache@2.3.0
+131 silly idealTree +-- watchpack@2.1.1
+131 silly idealTree +-- webpack-cli@4.6.0
+131 silly idealTree | `-- commander@7.2.0
+131 silly idealTree +-- webpack-merge@5.7.3
+131 silly idealTree +-- webpack-sources@2.2.0
+131 silly idealTree +-- webpack@5.35.1
+131 silly idealTree +-- which@2.0.2
+131 silly idealTree +-- wildcard@2.0.0
+131 silly idealTree `-- yocto-queue@0.1.0
+132 silly install generateActionsToTake
+133 timing stage:generateActionsToTake Completed in 22ms
+134 silly diffTrees action count 39
+135 silly diffTrees add ansi-regex@2.1.1
+136 silly diffTrees add boolbase@1.0.0
+137 silly diffTrees add clean-css@4.2.3
+138 silly diffTrees add css-what@3.4.2
+139 silly diffTrees add domelementtype@2.2.0
+140 silly diffTrees add domelementtype@1.3.1
+141 silly diffTrees add domhandler@2.4.2
+142 silly diffTrees add entities@2.2.0
+143 silly diffTrees add dom-serializer@0.2.2
+144 silly diffTrees add domutils@1.7.0
+145 silly diffTrees add he@1.2.0
+146 silly diffTrees add commander@4.1.1
+147 silly diffTrees add commander@2.20.3
+148 silly diffTrees add terser@4.8.0
+149 silly diffTrees add entities@1.1.2
+150 silly diffTrees add inherits@2.0.4
+151 silly diffTrees add lodash@4.17.21
+152 silly diffTrees add nth-check@1.0.2
+153 silly diffTrees add css-select@2.1.0
+154 silly diffTrees add relateurl@0.2.7
+155 silly diffTrees add string_decoder@1.3.0
+156 silly diffTrees add strip-ansi@3.0.1
+157 silly diffTrees add tslib@2.2.0
+158 silly diffTrees add lower-case@2.0.2
+159 silly diffTrees add no-case@3.0.4
+160 silly diffTrees add dot-case@3.0.4
+161 silly diffTrees add param-case@3.0.4
+162 silly diffTrees add pascal-case@3.1.2
+163 silly diffTrees add camel-case@4.1.2
+164 silly diffTrees add util-deprecate@1.0.2
+165 silly diffTrees add readable-stream@3.6.0
+166 silly diffTrees add htmlparser2@3.10.1
+167 silly diffTrees add utila@0.4.0
+168 silly diffTrees add dom-converter@0.2.0
+169 silly diffTrees add renderkid@2.0.5
+170 silly diffTrees add @types/html-minifier-terser@5.1.1
+171 silly diffTrees add html-minifier-terser@5.1.1
+172 silly diffTrees add pretty-error@2.1.2
+173 silly diffTrees add html-webpack-plugin@5.3.1
+174 silly decomposeActions action count 312
+175 silly decomposeActions fetch ansi-regex@2.1.1
+176 silly decomposeActions extract ansi-regex@2.1.1
+177 silly decomposeActions preinstall ansi-regex@2.1.1
+178 silly decomposeActions build ansi-regex@2.1.1
+179 silly decomposeActions install ansi-regex@2.1.1
+180 silly decomposeActions postinstall ansi-regex@2.1.1
+181 silly decomposeActions finalize ansi-regex@2.1.1
+182 silly decomposeActions refresh-package-json ansi-regex@2.1.1
+183 silly decomposeActions fetch boolbase@1.0.0
+184 silly decomposeActions extract boolbase@1.0.0
+185 silly decomposeActions preinstall boolbase@1.0.0
+186 silly decomposeActions build boolbase@1.0.0
+187 silly decomposeActions install boolbase@1.0.0
+188 silly decomposeActions postinstall boolbase@1.0.0
+189 silly decomposeActions finalize boolbase@1.0.0
+190 silly decomposeActions refresh-package-json boolbase@1.0.0
+191 silly decomposeActions fetch clean-css@4.2.3
+192 silly decomposeActions extract clean-css@4.2.3
+193 silly decomposeActions preinstall clean-css@4.2.3
+194 silly decomposeActions build clean-css@4.2.3
+195 silly decomposeActions install clean-css@4.2.3
+196 silly decomposeActions postinstall clean-css@4.2.3
+197 silly decomposeActions finalize clean-css@4.2.3
+198 silly decomposeActions refresh-package-json clean-css@4.2.3
+199 silly decomposeActions fetch css-what@3.4.2
+200 silly decomposeActions extract css-what@3.4.2
+201 silly decomposeActions preinstall css-what@3.4.2
+202 silly decomposeActions build css-what@3.4.2
+203 silly decomposeActions install css-what@3.4.2
+204 silly decomposeActions postinstall css-what@3.4.2
+205 silly decomposeActions finalize css-what@3.4.2
+206 silly decomposeActions refresh-package-json css-what@3.4.2
+207 silly decomposeActions fetch domelementtype@2.2.0
+208 silly decomposeActions extract domelementtype@2.2.0
+209 silly decomposeActions preinstall domelementtype@2.2.0
+210 silly decomposeActions build domelementtype@2.2.0
+211 silly decomposeActions install domelementtype@2.2.0
+212 silly decomposeActions postinstall domelementtype@2.2.0
+213 silly decomposeActions finalize domelementtype@2.2.0
+214 silly decomposeActions refresh-package-json domelementtype@2.2.0
+215 silly decomposeActions fetch domelementtype@1.3.1
+216 silly decomposeActions extract domelementtype@1.3.1
+217 silly decomposeActions preinstall domelementtype@1.3.1
+218 silly decomposeActions build domelementtype@1.3.1
+219 silly decomposeActions install domelementtype@1.3.1
+220 silly decomposeActions postinstall domelementtype@1.3.1
+221 silly decomposeActions finalize domelementtype@1.3.1
+222 silly decomposeActions refresh-package-json domelementtype@1.3.1
+223 silly decomposeActions fetch domhandler@2.4.2
+224 silly decomposeActions extract domhandler@2.4.2
+225 silly decomposeActions preinstall domhandler@2.4.2
+226 silly decomposeActions build domhandler@2.4.2
+227 silly decomposeActions install domhandler@2.4.2
+228 silly decomposeActions postinstall domhandler@2.4.2
+229 silly decomposeActions finalize domhandler@2.4.2
+230 silly decomposeActions refresh-package-json domhandler@2.4.2
+231 silly decomposeActions fetch entities@2.2.0
+232 silly decomposeActions extract entities@2.2.0
+233 silly decomposeActions preinstall entities@2.2.0
+234 silly decomposeActions build entities@2.2.0
+235 silly decomposeActions install entities@2.2.0
+236 silly decomposeActions postinstall entities@2.2.0
+237 silly decomposeActions finalize entities@2.2.0
+238 silly decomposeActions refresh-package-json entities@2.2.0
+239 silly decomposeActions fetch dom-serializer@0.2.2
+240 silly decomposeActions extract dom-serializer@0.2.2
+241 silly decomposeActions preinstall dom-serializer@0.2.2
+242 silly decomposeActions build dom-serializer@0.2.2
+243 silly decomposeActions install dom-serializer@0.2.2
+244 silly decomposeActions postinstall dom-serializer@0.2.2
+245 silly decomposeActions finalize dom-serializer@0.2.2
+246 silly decomposeActions refresh-package-json dom-serializer@0.2.2
+247 silly decomposeActions fetch domutils@1.7.0
+248 silly decomposeActions extract domutils@1.7.0
+249 silly decomposeActions preinstall domutils@1.7.0
+250 silly decomposeActions build domutils@1.7.0
+251 silly decomposeActions install domutils@1.7.0
+252 silly decomposeActions postinstall domutils@1.7.0
+253 silly decomposeActions finalize domutils@1.7.0
+254 silly decomposeActions refresh-package-json domutils@1.7.0
+255 silly decomposeActions fetch he@1.2.0
+256 silly decomposeActions extract he@1.2.0
+257 silly decomposeActions preinstall he@1.2.0
+258 silly decomposeActions build he@1.2.0
+259 silly decomposeActions install he@1.2.0
+260 silly decomposeActions postinstall he@1.2.0
+261 silly decomposeActions finalize he@1.2.0
+262 silly decomposeActions refresh-package-json he@1.2.0
+263 silly decomposeActions fetch commander@4.1.1
+264 silly decomposeActions extract commander@4.1.1
+265 silly decomposeActions preinstall commander@4.1.1
+266 silly decomposeActions build commander@4.1.1
+267 silly decomposeActions install commander@4.1.1
+268 silly decomposeActions postinstall commander@4.1.1
+269 silly decomposeActions finalize commander@4.1.1
+270 silly decomposeActions refresh-package-json commander@4.1.1
+271 silly decomposeActions fetch commander@2.20.3
+272 silly decomposeActions extract commander@2.20.3
+273 silly decomposeActions preinstall commander@2.20.3
+274 silly decomposeActions build commander@2.20.3
+275 silly decomposeActions install commander@2.20.3
+276 silly decomposeActions postinstall commander@2.20.3
+277 silly decomposeActions finalize commander@2.20.3
+278 silly decomposeActions refresh-package-json commander@2.20.3
+279 silly decomposeActions fetch terser@4.8.0
+280 silly decomposeActions extract terser@4.8.0
+281 silly decomposeActions preinstall terser@4.8.0
+282 silly decomposeActions build terser@4.8.0
+283 silly decomposeActions install terser@4.8.0
+284 silly decomposeActions postinstall terser@4.8.0
+285 silly decomposeActions finalize terser@4.8.0
+286 silly decomposeActions refresh-package-json terser@4.8.0
+287 silly decomposeActions fetch entities@1.1.2
+288 silly decomposeActions extract entities@1.1.2
+289 silly decomposeActions preinstall entities@1.1.2
+290 silly decomposeActions build entities@1.1.2
+291 silly decomposeActions install entities@1.1.2
+292 silly decomposeActions postinstall entities@1.1.2
+293 silly decomposeActions finalize entities@1.1.2
+294 silly decomposeActions refresh-package-json entities@1.1.2
+295 silly decomposeActions fetch inherits@2.0.4
+296 silly decomposeActions extract inherits@2.0.4
+297 silly decomposeActions preinstall inherits@2.0.4
+298 silly decomposeActions build inherits@2.0.4
+299 silly decomposeActions install inherits@2.0.4
+300 silly decomposeActions postinstall inherits@2.0.4
+301 silly decomposeActions finalize inherits@2.0.4
+302 silly decomposeActions refresh-package-json inherits@2.0.4
+303 silly decomposeActions fetch lodash@4.17.21
+304 silly decomposeActions extract lodash@4.17.21
+305 silly decomposeActions preinstall lodash@4.17.21
+306 silly decomposeActions build lodash@4.17.21
+307 silly decomposeActions install lodash@4.17.21
+308 silly decomposeActions postinstall lodash@4.17.21
+309 silly decomposeActions finalize lodash@4.17.21
+310 silly decomposeActions refresh-package-json lodash@4.17.21
+311 silly decomposeActions fetch nth-check@1.0.2
+312 silly decomposeActions extract nth-check@1.0.2
+313 silly decomposeActions preinstall nth-check@1.0.2
+314 silly decomposeActions build nth-check@1.0.2
+315 silly decomposeActions install nth-check@1.0.2
+316 silly decomposeActions postinstall nth-check@1.0.2
+317 silly decomposeActions finalize nth-check@1.0.2
+318 silly decomposeActions refresh-package-json nth-check@1.0.2
+319 silly decomposeActions fetch css-select@2.1.0
+320 silly decomposeActions extract css-select@2.1.0
+321 silly decomposeActions preinstall css-select@2.1.0
+322 silly decomposeActions build css-select@2.1.0
+323 silly decomposeActions install css-select@2.1.0
+324 silly decomposeActions postinstall css-select@2.1.0
+325 silly decomposeActions finalize css-select@2.1.0
+326 silly decomposeActions refresh-package-json css-select@2.1.0
+327 silly decomposeActions fetch relateurl@0.2.7
+328 silly decomposeActions extract relateurl@0.2.7
+329 silly decomposeActions preinstall relateurl@0.2.7
+330 silly decomposeActions build relateurl@0.2.7
+331 silly decomposeActions install relateurl@0.2.7
+332 silly decomposeActions postinstall relateurl@0.2.7
+333 silly decomposeActions finalize relateurl@0.2.7
+334 silly decomposeActions refresh-package-json relateurl@0.2.7
+335 silly decomposeActions fetch string_decoder@1.3.0
+336 silly decomposeActions extract string_decoder@1.3.0
+337 silly decomposeActions preinstall string_decoder@1.3.0
+338 silly decomposeActions build string_decoder@1.3.0
+339 silly decomposeActions install string_decoder@1.3.0
+340 silly decomposeActions postinstall string_decoder@1.3.0
+341 silly decomposeActions finalize string_decoder@1.3.0
+342 silly decomposeActions refresh-package-json string_decoder@1.3.0
+343 silly decomposeActions fetch strip-ansi@3.0.1
+344 silly decomposeActions extract strip-ansi@3.0.1
+345 silly decomposeActions preinstall strip-ansi@3.0.1
+346 silly decomposeActions build strip-ansi@3.0.1
+347 silly decomposeActions install strip-ansi@3.0.1
+348 silly decomposeActions postinstall strip-ansi@3.0.1
+349 silly decomposeActions finalize strip-ansi@3.0.1
+350 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+351 silly decomposeActions fetch tslib@2.2.0
+352 silly decomposeActions extract tslib@2.2.0
+353 silly decomposeActions preinstall tslib@2.2.0
+354 silly decomposeActions build tslib@2.2.0
+355 silly decomposeActions install tslib@2.2.0
+356 silly decomposeActions postinstall tslib@2.2.0
+357 silly decomposeActions finalize tslib@2.2.0
+358 silly decomposeActions refresh-package-json tslib@2.2.0
+359 silly decomposeActions fetch lower-case@2.0.2
+360 silly decomposeActions extract lower-case@2.0.2
+361 silly decomposeActions preinstall lower-case@2.0.2
+362 silly decomposeActions build lower-case@2.0.2
+363 silly decomposeActions install lower-case@2.0.2
+364 silly decomposeActions postinstall lower-case@2.0.2
+365 silly decomposeActions finalize lower-case@2.0.2
+366 silly decomposeActions refresh-package-json lower-case@2.0.2
+367 silly decomposeActions fetch no-case@3.0.4
+368 silly decomposeActions extract no-case@3.0.4
+369 silly decomposeActions preinstall no-case@3.0.4
+370 silly decomposeActions build no-case@3.0.4
+371 silly decomposeActions install no-case@3.0.4
+372 silly decomposeActions postinstall no-case@3.0.4
+373 silly decomposeActions finalize no-case@3.0.4
+374 silly decomposeActions refresh-package-json no-case@3.0.4
+375 silly decomposeActions fetch dot-case@3.0.4
+376 silly decomposeActions extract dot-case@3.0.4
+377 silly decomposeActions preinstall dot-case@3.0.4
+378 silly decomposeActions build dot-case@3.0.4
+379 silly decomposeActions install dot-case@3.0.4
+380 silly decomposeActions postinstall dot-case@3.0.4
+381 silly decomposeActions finalize dot-case@3.0.4
+382 silly decomposeActions refresh-package-json dot-case@3.0.4
+383 silly decomposeActions fetch param-case@3.0.4
+384 silly decomposeActions extract param-case@3.0.4
+385 silly decomposeActions preinstall param-case@3.0.4
+386 silly decomposeActions build param-case@3.0.4
+387 silly decomposeActions install param-case@3.0.4
+388 silly decomposeActions postinstall param-case@3.0.4
+389 silly decomposeActions finalize param-case@3.0.4
+390 silly decomposeActions refresh-package-json param-case@3.0.4
+391 silly decomposeActions fetch pascal-case@3.1.2
+392 silly decomposeActions extract pascal-case@3.1.2
+393 silly decomposeActions preinstall pascal-case@3.1.2
+394 silly decomposeActions build pascal-case@3.1.2
+395 silly decomposeActions install pascal-case@3.1.2
+396 silly decomposeActions postinstall pascal-case@3.1.2
+397 silly decomposeActions finalize pascal-case@3.1.2
+398 silly decomposeActions refresh-package-json pascal-case@3.1.2
+399 silly decomposeActions fetch camel-case@4.1.2
+400 silly decomposeActions extract camel-case@4.1.2
+401 silly decomposeActions preinstall camel-case@4.1.2
+402 silly decomposeActions build camel-case@4.1.2
+403 silly decomposeActions install camel-case@4.1.2
+404 silly decomposeActions postinstall camel-case@4.1.2
+405 silly decomposeActions finalize camel-case@4.1.2
+406 silly decomposeActions refresh-package-json camel-case@4.1.2
+407 silly decomposeActions fetch util-deprecate@1.0.2
+408 silly decomposeActions extract util-deprecate@1.0.2
+409 silly decomposeActions preinstall util-deprecate@1.0.2
+410 silly decomposeActions build util-deprecate@1.0.2
+411 silly decomposeActions install util-deprecate@1.0.2
+412 silly decomposeActions postinstall util-deprecate@1.0.2
+413 silly decomposeActions finalize util-deprecate@1.0.2
+414 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+415 silly decomposeActions fetch readable-stream@3.6.0
+416 silly decomposeActions extract readable-stream@3.6.0
+417 silly decomposeActions preinstall readable-stream@3.6.0
+418 silly decomposeActions build readable-stream@3.6.0
+419 silly decomposeActions install readable-stream@3.6.0
+420 silly decomposeActions postinstall readable-stream@3.6.0
+421 silly decomposeActions finalize readable-stream@3.6.0
+422 silly decomposeActions refresh-package-json readable-stream@3.6.0
+423 silly decomposeActions fetch htmlparser2@3.10.1
+424 silly decomposeActions extract htmlparser2@3.10.1
+425 silly decomposeActions preinstall htmlparser2@3.10.1
+426 silly decomposeActions build htmlparser2@3.10.1
+427 silly decomposeActions install htmlparser2@3.10.1
+428 silly decomposeActions postinstall htmlparser2@3.10.1
+429 silly decomposeActions finalize htmlparser2@3.10.1
+430 silly decomposeActions refresh-package-json htmlparser2@3.10.1
+431 silly decomposeActions fetch utila@0.4.0
+432 silly decomposeActions extract utila@0.4.0
+433 silly decomposeActions preinstall utila@0.4.0
+434 silly decomposeActions build utila@0.4.0
+435 silly decomposeActions install utila@0.4.0
+436 silly decomposeActions postinstall utila@0.4.0
+437 silly decomposeActions finalize utila@0.4.0
+438 silly decomposeActions refresh-package-json utila@0.4.0
+439 silly decomposeActions fetch dom-converter@0.2.0
+440 silly decomposeActions extract dom-converter@0.2.0
+441 silly decomposeActions preinstall dom-converter@0.2.0
+442 silly decomposeActions build dom-converter@0.2.0
+443 silly decomposeActions install dom-converter@0.2.0
+444 silly decomposeActions postinstall dom-converter@0.2.0
+445 silly decomposeActions finalize dom-converter@0.2.0
+446 silly decomposeActions refresh-package-json dom-converter@0.2.0
+447 silly decomposeActions fetch renderkid@2.0.5
+448 silly decomposeActions extract renderkid@2.0.5
+449 silly decomposeActions preinstall renderkid@2.0.5
+450 silly decomposeActions build renderkid@2.0.5
+451 silly decomposeActions install renderkid@2.0.5
+452 silly decomposeActions postinstall renderkid@2.0.5
+453 silly decomposeActions finalize renderkid@2.0.5
+454 silly decomposeActions refresh-package-json renderkid@2.0.5
+455 silly decomposeActions fetch @types/html-minifier-terser@5.1.1
+456 silly decomposeActions extract @types/html-minifier-terser@5.1.1
+457 silly decomposeActions preinstall @types/html-minifier-terser@5.1.1
+458 silly decomposeActions build @types/html-minifier-terser@5.1.1
+459 silly decomposeActions install @types/html-minifier-terser@5.1.1
+460 silly decomposeActions postinstall @types/html-minifier-terser@5.1.1
+461 silly decomposeActions finalize @types/html-minifier-terser@5.1.1
+462 silly decomposeActions refresh-package-json @types/html-minifier-terser@5.1.1
+463 silly decomposeActions fetch html-minifier-terser@5.1.1
+464 silly decomposeActions extract html-minifier-terser@5.1.1
+465 silly decomposeActions preinstall html-minifier-terser@5.1.1
+466 silly decomposeActions build html-minifier-terser@5.1.1
+467 silly decomposeActions install html-minifier-terser@5.1.1
+468 silly decomposeActions postinstall html-minifier-terser@5.1.1
+469 silly decomposeActions finalize html-minifier-terser@5.1.1
+470 silly decomposeActions refresh-package-json html-minifier-terser@5.1.1
+471 silly decomposeActions fetch pretty-error@2.1.2
+472 silly decomposeActions extract pretty-error@2.1.2
+473 silly decomposeActions preinstall pretty-error@2.1.2
+474 silly decomposeActions build pretty-error@2.1.2
+475 silly decomposeActions install pretty-error@2.1.2
+476 silly decomposeActions postinstall pretty-error@2.1.2
+477 silly decomposeActions finalize pretty-error@2.1.2
+478 silly decomposeActions refresh-package-json pretty-error@2.1.2
+479 silly decomposeActions fetch html-webpack-plugin@5.3.1
+480 silly decomposeActions extract html-webpack-plugin@5.3.1
+481 silly decomposeActions preinstall html-webpack-plugin@5.3.1
+482 silly decomposeActions build html-webpack-plugin@5.3.1
+483 silly decomposeActions install html-webpack-plugin@5.3.1
+484 silly decomposeActions postinstall html-webpack-plugin@5.3.1
+485 silly decomposeActions finalize html-webpack-plugin@5.3.1
+486 silly decomposeActions refresh-package-json html-webpack-plugin@5.3.1
+487 silly install executeActions
+488 silly doSerial global-install 312
+489 verbose correctMkdir D:\jirengu\webpack-demo\_locks correctMkdir not in flight; initializing
+490 verbose makeCacheDir UID & GID are irrelevant on win32
+491 verbose lock using D:\jirengu\webpack-demo\_locks\staging-7f653bbbc2868197.lock for D:\jirengu\webpack-demo\node_modules\.staging
+492 http fetch POST 404 https://registry.npm.taobao.org/-/npm/v1/security/audits/quick 171ms
+493 silly doParallel extract 39
+494 silly extract ansi-regex@2.1.1
+495 silly extract boolbase@1.0.0
+496 silly extract clean-css@4.2.3
+497 silly extract css-what@3.4.2
+498 silly extract domelementtype@2.2.0
+499 silly extract domelementtype@1.3.1
+500 silly extract domhandler@2.4.2
+501 silly extract entities@2.2.0
+502 silly extract dom-serializer@0.2.2
+503 silly extract domutils@1.7.0
+504 silly extract he@1.2.0
+505 silly extract commander@4.1.1
+506 silly extract commander@2.20.3
+507 silly extract terser@4.8.0
+508 silly extract entities@1.1.2
+509 silly extract inherits@2.0.4
+510 silly extract lodash@4.17.21
+511 silly extract nth-check@1.0.2
+512 silly extract css-select@2.1.0
+513 silly extract relateurl@0.2.7
+514 silly extract string_decoder@1.3.0
+515 silly extract strip-ansi@3.0.1
+516 silly extract tslib@2.2.0
+517 silly extract lower-case@2.0.2
+518 silly extract no-case@3.0.4
+519 silly extract dot-case@3.0.4
+520 silly extract param-case@3.0.4
+521 silly extract pascal-case@3.1.2
+522 silly extract camel-case@4.1.2
+523 silly extract util-deprecate@1.0.2
+524 silly extract readable-stream@3.6.0
+525 silly extract htmlparser2@3.10.1
+526 silly extract utila@0.4.0
+527 silly extract dom-converter@0.2.0
+528 silly extract renderkid@2.0.5
+529 silly extract @types/html-minifier-terser@5.1.1
+530 silly extract html-minifier-terser@5.1.1
+531 silly extract pretty-error@2.1.2
+532 silly extract html-webpack-plugin@5.3.1
+533 silly tarball trying ansi-regex@^2.0.0 by hash: sha1-w7M6te42DYbg5ijwRorn7yfWVN8=
+534 silly tarball trying boolbase@^1.0.0 by hash: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+535 silly tarball trying clean-css@^4.2.3 by hash: sha1-UHtd59l7SO5T2ErbAWD/YhY4D3g=
+536 silly tarball trying css-what@^3.2.1 by hash: sha1-6nAm/LAXd+295SEk4h8yfnrpUOQ=
+537 silly tarball trying domelementtype@^2.0.1 by hash: sha1-mgtsJ4LtahxzI9QiZxg9+b2LHVc=
+538 silly tarball trying domelementtype@1 by hash: sha1-0EjESzew0Qp/Kj1f7j9DM9eQSB8=
+539 silly tarball trying domhandler@^2.3.0 by hash: sha1-iAUJfpM9ZehVRvcm1g9euItE+AM=
+540 silly tarball trying entities@^2.0.0 by hash: sha1-CY3JDruD2N/6CJ1VJWs1HTTE2lU=
+541 silly tarball trying dom-serializer@0 by hash: sha1-GvuB9TNxcXXUeGVd68XjMtn5u1E=
+542 silly tarball trying domutils@^1.7.0 by hash: sha1-Vuo0HoNOBuZ0ivehyyXaZ+qfjCo=
+543 silly tarball trying he@^1.2.0 by hash: sha1-hK5l+n6vsWX922FWauFLrwVmTw8=
+544 silly tarball trying commander@^4.1.1 by hash: sha1-n9YCvZNilOnp70aj9NaWQESxgGg=
+545 silly tarball trying commander@^2.20.0 by hash: sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+546 silly tarball trying terser@^4.6.3 by hash: sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
+547 silly tarball trying entities@^1.1.1 by hash: sha1-vfpzUplmTfr9NFKe1PhSKidf6lY=
+548 silly tarball trying inherits@^2.0.1 by hash: sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+549 silly tarball trying lodash@^4.17.20 by hash: sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw=
+550 silly tarball trying nth-check@^1.0.2 by hash: sha1-sr0pXDfj3VijvwcAN2Zjuk2c8Fw=
+551 silly tarball trying relateurl@^0.2.7 by hash: sha1-VNvzd+UUQKypCkzSdGANP/LYiKk=
+552 silly tarball trying css-select@^2.0.2 by hash: sha1-ajRlM1ZjWTSoG6ymjQJVQyEF2+8=
+553 silly tarball trying string_decoder@^1.1.1 by hash: sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4=
+554 silly tarball trying strip-ansi@^3.0.0 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+555 silly tarball trying tslib@^2.0.3 by hash: sha1-+yxHWXfjXiQTEe3iaTzuHsZpj1w=
+556 silly tarball trying lower-case@^2.0.2 by hash: sha1-b6I3xj29xKgsoP2ILkci3F5jTig=
+557 silly tarball trying no-case@^3.0.4 by hash: sha1-02H9XJgA9VhVGoNp/A3NRmK2Ek0=
+558 silly tarball trying dot-case@^3.0.4 by hash: sha1-mytnDQCkMWZ6inW6Kc0bmICc51E=
+559 silly tarball trying param-case@^3.0.3 by hash: sha1-fRf+SqEr3jTUp32RrPtiGcqtAcU=
+560 silly tarball trying pascal-case@^3.1.2 by hash: sha1-tI4O8rmOIF58Ha50fQsVCCN2YOs=
+561 silly tarball trying camel-case@^4.1.1 by hash: sha1-lygHKpVPgFIoIlpt7qazhGHhvVo=
+562 silly tarball trying util-deprecate@^1.0.1 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+563 silly tarball trying readable-stream@^3.1.1 by hash: sha1-M3u9o63AcGvT4CRCaihtS0sskZg=
+564 silly tarball trying htmlparser2@^3.10.1 by hash: sha1-vWedw/WYl7ajS7EHSchVu1OpOS8=
+565 silly tarball trying dom-converter@^0.2 by hash: sha1-ZyGp2u4uKTaClVtq/kFncWJ7t2g=
+566 silly tarball trying utila@~0.4 by hash: sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
+567 silly tarball trying @types/html-minifier-terser@^5.0.0 by hash: sha1-PJ7pgPGhDWAhrmYyyj55yi7E+1A=
+568 silly tarball trying renderkid@^2.0.4 by hash: sha1-SDsaxZxmAaswp6WWpZZcq8z90KU=
+569 silly tarball trying html-minifier-terser@^5.0.1 by hash: sha1-ki6W8fO7YIMsJjS3mIQJY4mx8FQ=
+570 silly tarball trying pretty-error@^2.1.1 by hash: sha1-von4LYGxyG7I/fvDhQRYgnJ/k7Y=
+571 silly tarball trying html-webpack-plugin@latest by hash: sha1-h5cydUjj3kOONJTgxtBvGBp/INE=
+572 silly tarball no local data for ansi-regex@^2.0.0. Extracting by manifest.
+573 silly tarball no local data for boolbase@^1.0.0. Extracting by manifest.
+574 silly tarball no local data for clean-css@^4.2.3. Extracting by manifest.
+575 silly tarball no local data for css-what@^3.2.1. Extracting by manifest.
+576 silly tarball no local data for domelementtype@^2.0.1. Extracting by manifest.
+577 silly tarball no local data for domelementtype@1. Extracting by manifest.
+578 silly tarball no local data for domhandler@^2.3.0. Extracting by manifest.
+579 silly tarball no local data for entities@^2.0.0. Extracting by manifest.
+580 silly tarball no local data for dom-serializer@0. Extracting by manifest.
+581 silly tarball no local data for domutils@^1.7.0. Extracting by manifest.
+582 silly tarball no local data for he@^1.2.0. Extracting by manifest.
+583 silly tarball no local data for commander@^4.1.1. Extracting by manifest.
+584 silly tarball no local data for terser@^4.6.3. Extracting by manifest.
+585 silly tarball no local data for entities@^1.1.1. Extracting by manifest.
+586 silly tarball no local data for inherits@^2.0.1. Extracting by manifest.
+587 silly tarball no local data for lodash@^4.17.20. Extracting by manifest.
+588 silly tarball no local data for nth-check@^1.0.2. Extracting by manifest.
+589 silly tarball no local data for relateurl@^0.2.7. Extracting by manifest.
+590 silly tarball no local data for css-select@^2.0.2. Extracting by manifest.
+591 silly tarball no local data for string_decoder@^1.1.1. Extracting by manifest.
+592 silly tarball no local data for strip-ansi@^3.0.0. Extracting by manifest.
+593 silly tarball no local data for tslib@^2.0.3. Extracting by manifest.
+594 silly tarball no local data for lower-case@^2.0.2. Extracting by manifest.
+595 silly tarball no local data for no-case@^3.0.4. Extracting by manifest.
+596 silly tarball no local data for dot-case@^3.0.4. Extracting by manifest.
+597 silly tarball no local data for param-case@^3.0.3. Extracting by manifest.
+598 silly tarball no local data for pascal-case@^3.1.2. Extracting by manifest.
+599 silly tarball no local data for camel-case@^4.1.1. Extracting by manifest.
+600 silly tarball no local data for util-deprecate@^1.0.1. Extracting by manifest.
+601 silly tarball no local data for readable-stream@^3.1.1. Extracting by manifest.
+602 silly tarball no local data for htmlparser2@^3.10.1. Extracting by manifest.
+603 silly tarball no local data for dom-converter@^0.2. Extracting by manifest.
+604 silly tarball no local data for utila@~0.4. Extracting by manifest.
+605 silly tarball no local data for @types/html-minifier-terser@^5.0.0. Extracting by manifest.
+606 silly tarball no local data for renderkid@^2.0.4. Extracting by manifest.
+607 silly tarball no local data for html-minifier-terser@^5.0.1. Extracting by manifest.
+608 silly tarball no local data for pretty-error@^2.1.1. Extracting by manifest.
+609 silly tarball no local data for html-webpack-plugin@latest. Extracting by manifest.
+610 silly extract commander@^2.20.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\commander-9c6e1220 (167ms)
+611 http fetch GET 304 https://registry.npm.taobao.org/dom-serializer 323ms (from cache)
+612 http fetch GET 304 https://registry.npm.taobao.org/utila 309ms (from cache)
+613 http fetch GET 304 https://registry.npm.taobao.org/nth-check 316ms (from cache)
+614 http fetch GET 304 https://registry.npm.taobao.org/terser 349ms (from cache)
+615 http fetch GET 200 https://cdn.npm.taobao.org/domelementtype/-/domelementtype-1.3.1.tgz 413ms
+616 http fetch GET 200 https://cdn.npm.taobao.org/domelementtype/-/domelementtype-2.2.0.tgz 422ms
+617 silly extract domelementtype@1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\domelementtype-cbd3556a (490ms)
+618 silly extract domelementtype@^2.0.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\domelementtype-8c3bedf0 (500ms)
+619 http fetch GET 200 https://cdn.npm.taobao.org/domhandler/-/domhandler-2.4.2.tgz 449ms
+620 http fetch GET 200 https://cdn.npm.taobao.org/dot-case/-/dot-case-3.0.4.tgz 446ms
+621 http fetch GET 200 https://cdn.npm.taobao.org/css-what/-/css-what-3.4.2.tgz 457ms
+622 http fetch GET 200 https://cdn.npm.taobao.org/camel-case/-/camel-case-4.1.2.tgz 450ms
+623 http fetch GET 200 https://cdn.npm.taobao.org/entities/-/entities-1.1.2.tgz 456ms
+624 http fetch GET 200 https://cdn.npm.taobao.org/clean-css/-/clean-css-4.2.3.tgz 472ms
+625 http fetch GET 200 https://cdn.npm.taobao.org/dom-converter/-/dom-converter-0.2.0.tgz 457ms
+626 http fetch GET 200 https://cdn.npm.taobao.org/string_decoder/-/string_decoder-1.3.0.tgz 474ms
+627 silly extract string_decoder@^1.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\string_decoder-d121a9bf (545ms)
+628 http fetch GET 200 https://cdn.npm.taobao.org/renderkid/-/renderkid-2.0.5.tgz 471ms
+629 http fetch GET 200 https://cdn.npm.taobao.org/strip-ansi/-/strip-ansi-3.0.1.tgz 487ms
+630 http fetch GET 304 https://registry.npm.taobao.org/lodash 521ms (from cache)
+631 http fetch GET 200 https://cdn.npm.taobao.org/%40types/html-minifier-terser/-/%40types/html-minifier-terser-5.1.1.tgz 476ms
+632 http fetch GET 200 https://cdn.npm.taobao.org/no-case/-/no-case-3.0.4.tgz 490ms
+633 http fetch GET 200 https://cdn.npm.taobao.org/pascal-case/-/pascal-case-3.1.2.tgz 488ms
+634 silly extract dom-converter@^0.2 extracted to D:\jirengu\webpack-demo\node_modules\.staging\dom-converter-1baac566 (556ms)
+635 silly extract strip-ansi@^3.0.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\strip-ansi-92189e9e (558ms)
+636 http fetch GET 304 https://registry.npm.taobao.org/util-deprecate 524ms (from cache)
+637 http fetch GET 304 https://registry.npm.taobao.org/pretty-error 487ms (from cache)
+638 http fetch GET 304 https://registry.npm.taobao.org/ansi-regex 537ms (from cache)
+639 http fetch GET 304 https://registry.npm.taobao.org/param-case 526ms (from cache)
+640 http fetch GET 304 https://registry.npm.taobao.org/commander 535ms (from cache)
+641 silly extract @types/html-minifier-terser@^5.0.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\@types\html-minifier-terser-6068cabd (568ms)
+642 http fetch GET 200 https://cdn.npm.taobao.org/relateurl/-/relateurl-0.2.7.tgz 511ms
+643 http fetch GET 304 https://registry.npm.taobao.org/inherits 543ms (from cache)
+644 http fetch GET 304 https://registry.npm.taobao.org/boolbase 552ms (from cache)
+645 http fetch GET 304 https://registry.npm.taobao.org/readable-stream 538ms (from cache)
+646 http fetch GET 304 https://registry.npm.taobao.org/domutils 551ms (from cache)
+647 http fetch GET 304 https://registry.npm.taobao.org/css-select 543ms (from cache)
+648 http fetch GET 304 https://registry.npm.taobao.org/htmlparser2 541ms (from cache)
+649 silly extract css-what@^3.2.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\css-what-f9c364f0 (589ms)
+650 http fetch GET 200 https://cdn.npm.taobao.org/entities/-/entities-2.2.0.tgz 530ms
+651 http fetch GET 200 https://cdn.npm.taobao.org/lower-case/-/lower-case-2.0.2.tgz 525ms
+652 http fetch GET 304 https://registry.npm.taobao.org/tslib 558ms (from cache)
+653 http fetch GET 200 https://cdn.npm.taobao.org/html-webpack-plugin/-/html-webpack-plugin-5.3.1.tgz 530ms
+654 http fetch GET 200 https://cdn.npm.taobao.org/he/-/he-1.2.0.tgz 560ms
+655 http fetch GET 200 https://cdn.npm.taobao.org/html-minifier-terser/-/html-minifier-terser-5.1.1.tgz 546ms
+656 silly extract dot-case@^3.0.4 extracted to D:\jirengu\webpack-demo\node_modules\.staging\dot-case-55ff921d (672ms)
+657 silly extract camel-case@^4.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\camel-case-0a7e27c5 (680ms)
+658 silly extract entities@^1.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\entities-6cb5575f (699ms)
+659 silly extract lower-case@^2.0.2 extracted to D:\jirengu\webpack-demo\node_modules\.staging\lower-case-8d46c9c8 (696ms)
+660 silly extract no-case@^3.0.4 extracted to D:\jirengu\webpack-demo\node_modules\.staging\no-case-0ebefd62 (700ms)
+661 silly extract pascal-case@^3.1.2 extracted to D:\jirengu\webpack-demo\node_modules\.staging\pascal-case-6f93fde6 (704ms)
+662 silly extract html-minifier-terser@^5.0.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\html-minifier-terser-08da6834 (706ms)
+663 silly extract he@^1.2.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\he-d8dd6062 (715ms)
+664 http fetch GET 200 https://cdn.npm.taobao.org/nth-check/-/nth-check-1.0.2.tgz 366ms
+665 http fetch GET 200 https://cdn.npm.taobao.org/utila/-/utila-0.4.0.tgz 368ms
+666 silly extract entities@^2.0.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\entities-539949e8 (734ms)
+667 http fetch GET 200 https://cdn.npm.taobao.org/dom-serializer/-/dom-serializer-0.2.2.tgz 370ms
+668 silly extract nth-check@^1.0.2 extracted to D:\jirengu\webpack-demo\node_modules\.staging\nth-check-0a4f4194 (733ms)
+669 silly extract dom-serializer@0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\dom-serializer-c4f3e5d0 (739ms)
+670 silly extract html-webpack-plugin@latest extracted to D:\jirengu\webpack-demo\node_modules\.staging\html-webpack-plugin-b74ab700 (740ms)
+671 silly extract domhandler@^2.3.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\domhandler-d69f19f4 (789ms)
+672 silly extract utila@~0.4 extracted to D:\jirengu\webpack-demo\node_modules\.staging\utila-7e97bab3 (811ms)
+673 silly extract relateurl@^0.2.7 extracted to D:\jirengu\webpack-demo\node_modules\.staging\relateurl-e9bdd7ed (813ms)
+674 http fetch GET 200 https://cdn.npm.taobao.org/inherits/-/inherits-2.0.4.tgz 245ms
+675 http fetch GET 200 https://cdn.npm.taobao.org/pretty-error/-/pretty-error-2.1.2.tgz 266ms
+676 silly extract inherits@^2.0.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\inherits-b669e99e (839ms)
+677 http fetch GET 200 https://cdn.npm.taobao.org/util-deprecate/-/util-deprecate-1.0.2.tgz 273ms
+678 silly extract util-deprecate@^1.0.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\util-deprecate-9b1b2bf8 (843ms)
+679 http fetch GET 200 https://cdn.npm.taobao.org/boolbase/-/boolbase-1.0.0.tgz 304ms
+680 silly extract boolbase@^1.0.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\boolbase-cedbc4f4 (900ms)
+681 silly extract pretty-error@^2.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\pretty-error-69e90c7f (900ms)
+682 http fetch GET 200 https://cdn.npm.taobao.org/htmlparser2/-/htmlparser2-3.10.1.tgz 324ms
+683 http fetch GET 200 https://cdn.npm.taobao.org/css-select/-/css-select-2.1.0.tgz 326ms
+684 http fetch GET 200 https://cdn.npm.taobao.org/domutils/-/domutils-1.7.0.tgz 335ms
+685 http fetch GET 200 https://cdn.npm.taobao.org/ansi-regex/-/ansi-regex-2.1.1.tgz 354ms
+686 silly extract ansi-regex@^2.0.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\ansi-regex-984817cf (933ms)
+687 silly extract htmlparser2@^3.10.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\htmlparser2-c7467c27 (926ms)
+688 silly extract css-select@^2.0.2 extracted to D:\jirengu\webpack-demo\node_modules\.staging\css-select-0842cb9b (931ms)
+689 silly extract domutils@^1.7.0 extracted to D:\jirengu\webpack-demo\node_modules\.staging\domutils-ac85eba7 (973ms)
+690 http fetch GET 200 https://cdn.npm.taobao.org/param-case/-/param-case-3.0.4.tgz 432ms
+691 http fetch GET 200 https://cdn.npm.taobao.org/readable-stream/-/readable-stream-3.6.0.tgz 418ms
+692 http fetch GET 200 https://cdn.npm.taobao.org/tslib/-/tslib-2.2.0.tgz 416ms
+693 silly extract tslib@^2.0.3 extracted to D:\jirengu\webpack-demo\node_modules\.staging\tslib-db9f59c9 (1017ms)
+694 silly extract param-case@^3.0.3 extracted to D:\jirengu\webpack-demo\node_modules\.staging\param-case-29797334 (1022ms)
+695 http fetch GET 200 https://cdn.npm.taobao.org/commander/-/commander-4.1.1.tgz 463ms
+696 silly extract commander@^4.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\commander-8f3e01a8 (1044ms)
+697 silly extract readable-stream@^3.1.1 extracted to D:\jirengu\webpack-demo\node_modules\.staging\readable-stream-c05ad3aa (1055ms)
+698 silly extract renderkid@^2.0.4 extracted to D:\jirengu\webpack-demo\node_modules\.staging\renderkid-ff0f62d8 (1105ms)
+699 silly extract clean-css@^4.2.3 extracted to D:\jirengu\webpack-demo\node_modules\.staging\clean-css-928d7314 (1125ms)
+700 http fetch GET 200 https://cdn.npm.taobao.org/terser/-/terser-4.8.0.tgz 779ms
+701 silly extract terser@^4.6.3 extracted to D:\jirengu\webpack-demo\node_modules\.staging\terser-7a26d90a (1172ms)
+702 http fetch GET 200 https://cdn.npm.taobao.org/lodash/-/lodash-4.17.21.tgz 845ms
+703 silly extract lodash@^4.17.20 extracted to D:\jirengu\webpack-demo\node_modules\.staging\lodash-73fb6378 (1739ms)
+704 timing action:extract Completed in 1748ms
+705 silly doReverseSerial unbuild 312
+706 silly doSerial remove 312
+707 silly doSerial move 312
+708 silly doSerial finalize 312
+709 silly finalize D:\jirengu\webpack-demo\node_modules\ansi-regex
+710 silly finalize D:\jirengu\webpack-demo\node_modules\boolbase
+711 silly finalize D:\jirengu\webpack-demo\node_modules\clean-css
+712 silly finalize D:\jirengu\webpack-demo\node_modules\css-what
+713 silly finalize D:\jirengu\webpack-demo\node_modules\dom-serializer\node_modules\domelementtype
+714 silly finalize D:\jirengu\webpack-demo\node_modules\domelementtype
+715 silly finalize D:\jirengu\webpack-demo\node_modules\domhandler
+716 silly finalize D:\jirengu\webpack-demo\node_modules\entities
+717 silly finalize D:\jirengu\webpack-demo\node_modules\dom-serializer
+718 silly finalize D:\jirengu\webpack-demo\node_modules\domutils
+719 silly finalize D:\jirengu\webpack-demo\node_modules\he
+720 silly finalize D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\commander
+721 silly finalize D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\terser\node_modules\commander
+722 silly finalize D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\terser
+723 silly finalize D:\jirengu\webpack-demo\node_modules\htmlparser2\node_modules\entities
+724 silly finalize D:\jirengu\webpack-demo\node_modules\inherits
+725 silly finalize D:\jirengu\webpack-demo\node_modules\lodash
+726 silly finalize D:\jirengu\webpack-demo\node_modules\nth-check
+727 silly finalize D:\jirengu\webpack-demo\node_modules\css-select
+728 silly finalize D:\jirengu\webpack-demo\node_modules\relateurl
+729 silly finalize D:\jirengu\webpack-demo\node_modules\string_decoder
+730 silly finalize D:\jirengu\webpack-demo\node_modules\strip-ansi
+731 silly finalize D:\jirengu\webpack-demo\node_modules\tslib
+732 silly finalize D:\jirengu\webpack-demo\node_modules\lower-case
+733 silly finalize D:\jirengu\webpack-demo\node_modules\no-case
+734 silly finalize D:\jirengu\webpack-demo\node_modules\dot-case
+735 silly finalize D:\jirengu\webpack-demo\node_modules\param-case
+736 silly finalize D:\jirengu\webpack-demo\node_modules\pascal-case
+737 silly finalize D:\jirengu\webpack-demo\node_modules\camel-case
+738 silly finalize D:\jirengu\webpack-demo\node_modules\util-deprecate
+739 silly finalize D:\jirengu\webpack-demo\node_modules\readable-stream
+740 silly finalize D:\jirengu\webpack-demo\node_modules\htmlparser2
+741 silly finalize D:\jirengu\webpack-demo\node_modules\utila
+742 silly finalize D:\jirengu\webpack-demo\node_modules\dom-converter
+743 silly finalize D:\jirengu\webpack-demo\node_modules\renderkid
+744 silly finalize D:\jirengu\webpack-demo\node_modules\@types\html-minifier-terser
+745 silly finalize D:\jirengu\webpack-demo\node_modules\html-minifier-terser
+746 silly finalize D:\jirengu\webpack-demo\node_modules\pretty-error
+747 silly finalize D:\jirengu\webpack-demo\node_modules\html-webpack-plugin
+748 timing action:finalize Completed in 144ms
+749 silly doParallel refresh-package-json 39
+750 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\ansi-regex
+751 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\boolbase
+752 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\clean-css
+753 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\css-what
+754 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\dom-serializer\node_modules\domelementtype
+755 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\domelementtype
+756 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\domhandler
+757 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\entities
+758 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\dom-serializer
+759 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\domutils
+760 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\he
+761 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\commander
+762 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\terser\node_modules\commander
+763 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\html-minifier-terser\node_modules\terser
+764 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\htmlparser2\node_modules\entities
+765 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\inherits
+766 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\lodash
+767 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\nth-check
+768 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\css-select
+769 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\relateurl
+770 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\string_decoder
+771 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\strip-ansi
+772 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\tslib
+773 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\lower-case
+774 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\no-case
+775 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\dot-case
+776 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\param-case
+777 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\pascal-case
+778 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\camel-case
+779 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\util-deprecate
+780 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\readable-stream
+781 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\htmlparser2
+782 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\utila
+783 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\dom-converter
+784 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\renderkid
+785 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\@types\html-minifier-terser
+786 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\html-minifier-terser
+787 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\pretty-error
+788 silly refresh-package-json D:\jirengu\webpack-demo\node_modules\html-webpack-plugin
+789 timing action:refresh-package-json Completed in 241ms
+790 verbose unlock done using D:\jirengu\webpack-demo\_locks\staging-7f653bbbc2868197.lock for D:\jirengu\webpack-demo\node_modules\.staging
+791 timing stage:rollbackFailedOptional Completed in 48ms
+792 timing stage:runTopLevelLifecycles Completed in 4233ms
+793 silly saveTree webpack-demo@1.0.0
+793 silly saveTree +-- html-webpack-plugin@5.3.1
+793 silly saveTree | +-- @types/html-minifier-terser@5.1.1
+793 silly saveTree | +-- html-minifier-terser@5.1.1
+793 silly saveTree | | +-- camel-case@4.1.2
+793 silly saveTree | | | +-- pascal-case@3.1.2
+793 silly saveTree | | | | +-- no-case@3.0.4
+793 silly saveTree | | | | | +-- lower-case@2.0.2
+793 silly saveTree | | | | | | `-- tslib@2.2.0
+793 silly saveTree | | | | | `-- tslib@2.2.0
+793 silly saveTree | | | | `-- tslib@2.2.0
+793 silly saveTree | | | `-- tslib@2.2.0
+793 silly saveTree | | +-- clean-css@4.2.3
+793 silly saveTree | | | `-- source-map@0.6.1
+793 silly saveTree | | +-- commander@4.1.1
+793 silly saveTree | | +-- he@1.2.0
+793 silly saveTree | | +-- param-case@3.0.4
+793 silly saveTree | | | `-- dot-case@3.0.4
+793 silly saveTree | | +-- relateurl@0.2.7
+793 silly saveTree | | `-- terser@4.8.0
+793 silly saveTree | |   +-- commander@2.20.3
+793 silly saveTree | |   `-- source-map-support@0.5.19
+793 silly saveTree | |     `-- buffer-from@1.1.1
+793 silly saveTree | +-- lodash@4.17.21
+793 silly saveTree | +-- pretty-error@2.1.2
+793 silly saveTree | | `-- renderkid@2.0.5
+793 silly saveTree | |   +-- css-select@2.1.0
+793 silly saveTree | |   | +-- boolbase@1.0.0
+793 silly saveTree | |   | +-- css-what@3.4.2
+793 silly saveTree | |   | +-- domutils@1.7.0
+793 silly saveTree | |   | | +-- dom-serializer@0.2.2
+793 silly saveTree | |   | | | +-- domelementtype@2.2.0
+793 silly saveTree | |   | | | `-- entities@2.2.0
+793 silly saveTree | |   | | `-- domelementtype@1.3.1
+793 silly saveTree | |   | `-- nth-check@1.0.2
+793 silly saveTree | |   +-- dom-converter@0.2.0
+793 silly saveTree | |   | `-- utila@0.4.0
+793 silly saveTree | |   +-- htmlparser2@3.10.1
+793 silly saveTree | |   | +-- domhandler@2.4.2
+793 silly saveTree | |   | +-- entities@1.1.2
+793 silly saveTree | |   | +-- inherits@2.0.4
+793 silly saveTree | |   | `-- readable-stream@3.6.0
+793 silly saveTree | |   |   +-- string_decoder@1.3.0
+793 silly saveTree | |   |   | `-- safe-buffer@5.2.1
+793 silly saveTree | |   |   `-- util-deprecate@1.0.2
+793 silly saveTree | |   `-- strip-ansi@3.0.1
+793 silly saveTree | |     `-- ansi-regex@2.1.1
+793 silly saveTree | `-- tapable@2.2.0
+793 silly saveTree +-- webpack-cli@4.6.0
+793 silly saveTree | +-- @discoveryjs/json-ext@0.5.2
+793 silly saveTree | +-- @webpack-cli/configtest@1.0.2
+793 silly saveTree | +-- @webpack-cli/info@1.2.3
+793 silly saveTree | | `-- envinfo@7.8.1
+793 silly saveTree | +-- @webpack-cli/serve@1.3.1
+793 silly saveTree | +-- colorette@1.2.2
+793 silly saveTree | +-- commander@7.2.0
+793 silly saveTree | +-- enquirer@2.3.6
+793 silly saveTree | | `-- ansi-colors@4.1.1
+793 silly saveTree | +-- execa@5.0.0
+793 silly saveTree | | +-- cross-spawn@7.0.3
+793 silly saveTree | | | +-- path-key@3.1.1
+793 silly saveTree | | | +-- shebang-command@2.0.0
+793 silly saveTree | | | | `-- shebang-regex@3.0.0
+793 silly saveTree | | | `-- which@2.0.2
+793 silly saveTree | | |   `-- isexe@2.0.0
+793 silly saveTree | | +-- get-stream@6.0.1
+793 silly saveTree | | +-- human-signals@2.1.0
+793 silly saveTree | | +-- is-stream@2.0.0
+793 silly saveTree | | +-- merge-stream@2.0.0
+793 silly saveTree | | +-- npm-run-path@4.0.1
+793 silly saveTree | | +-- onetime@5.1.2
+793 silly saveTree | | | `-- mimic-fn@2.1.0
+793 silly saveTree | | +-- signal-exit@3.0.3
+793 silly saveTree | | `-- strip-final-newline@2.0.0
+793 silly saveTree | +-- fastest-levenshtein@1.0.12
+793 silly saveTree | +-- import-local@3.0.2
+793 silly saveTree | | +-- pkg-dir@4.2.0
+793 silly saveTree | | | `-- find-up@4.1.0
+793 silly saveTree | | |   +-- locate-path@5.0.0
+793 silly saveTree | | |   | `-- p-locate@4.1.0
+793 silly saveTree | | |   |   `-- p-limit@2.3.0
+793 silly saveTree | | |   |     `-- p-try@2.2.0
+793 silly saveTree | | |   `-- path-exists@4.0.0
+793 silly saveTree | | `-- resolve-cwd@3.0.0
+793 silly saveTree | |   `-- resolve-from@5.0.0
+793 silly saveTree | +-- interpret@2.2.0
+793 silly saveTree | +-- rechoir@0.7.0
+793 silly saveTree | | `-- resolve@1.20.0
+793 silly saveTree | |   +-- is-core-module@2.3.0
+793 silly saveTree | |   | `-- has@1.0.3
+793 silly saveTree | |   |   `-- function-bind@1.1.1
+793 silly saveTree | |   `-- path-parse@1.0.6
+793 silly saveTree | +-- v8-compile-cache@2.3.0
+793 silly saveTree | `-- webpack-merge@5.7.3
+793 silly saveTree |   +-- clone-deep@4.0.1
+793 silly saveTree |   | +-- is-plain-object@2.0.4
+793 silly saveTree |   | | `-- isobject@3.0.1
+793 silly saveTree |   | +-- kind-of@6.0.3
+793 silly saveTree |   | `-- shallow-clone@3.0.1
+793 silly saveTree |   `-- wildcard@2.0.0
+793 silly saveTree `-- webpack@5.35.1
+793 silly saveTree   +-- @types/eslint-scope@3.7.0
+793 silly saveTree   | +-- @types/eslint@7.2.10
+793 silly saveTree   | | +-- @types/estree@0.0.47
+793 silly saveTree   | | `-- @types/json-schema@7.0.7
+793 silly saveTree   | `-- @types/estree@0.0.47
+793 silly saveTree   +-- @types/estree@0.0.47
+793 silly saveTree   +-- @webassemblyjs/ast@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/helper-numbers@1.11.0
+793 silly saveTree   | | +-- @webassemblyjs/floating-point-hex-parser@1.11.0
+793 silly saveTree   | | +-- @webassemblyjs/helper-api-error@1.11.0
+793 silly saveTree   | | `-- @xtuc/long@4.2.2
+793 silly saveTree   | `-- @webassemblyjs/helper-wasm-bytecode@1.11.0
+793 silly saveTree   +-- @webassemblyjs/wasm-edit@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/helper-buffer@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/helper-wasm-section@1.11.0
+793 silly saveTree   | | `-- @webassemblyjs/wasm-gen@1.11.0
+793 silly saveTree   | |   +-- @webassemblyjs/ieee754@1.11.0
+793 silly saveTree   | |   | `-- @xtuc/ieee754@1.2.0
+793 silly saveTree   | |   +-- @webassemblyjs/leb128@1.11.0
+793 silly saveTree   | |   `-- @webassemblyjs/utf8@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/wasm-gen@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/wasm-opt@1.11.0
+793 silly saveTree   | | `-- @webassemblyjs/wasm-parser@1.11.0
+793 silly saveTree   | +-- @webassemblyjs/wasm-parser@1.11.0
+793 silly saveTree   | `-- @webassemblyjs/wast-printer@1.11.0
+793 silly saveTree   +-- @webassemblyjs/wasm-parser@1.11.0
+793 silly saveTree   +-- acorn@8.2.1
+793 silly saveTree   +-- browserslist@4.16.5
+793 silly saveTree   | +-- caniuse-lite@1.0.30001218
+793 silly saveTree   | +-- electron-to-chromium@1.3.722
+793 silly saveTree   | +-- escalade@3.1.1
+793 silly saveTree   | `-- node-releases@1.1.71
+793 silly saveTree   +-- chrome-trace-event@1.0.3
+793 silly saveTree   +-- enhanced-resolve@5.8.0
+793 silly saveTree   | `-- graceful-fs@4.2.6
+793 silly saveTree   +-- es-module-lexer@0.4.1
+793 silly saveTree   +-- eslint-scope@5.1.1
+793 silly saveTree   | +-- esrecurse@4.3.0
+793 silly saveTree   | | `-- estraverse@5.2.0
+793 silly saveTree   | `-- estraverse@4.3.0
+793 silly saveTree   +-- events@3.3.0
+793 silly saveTree   +-- glob-to-regexp@0.4.1
+793 silly saveTree   +-- graceful-fs@4.2.6
+793 silly saveTree   +-- json-parse-better-errors@1.0.2
+793 silly saveTree   +-- loader-runner@4.2.0
+793 silly saveTree   +-- mime-types@2.1.30
+793 silly saveTree   | `-- mime-db@1.47.0
+793 silly saveTree   +-- neo-async@2.6.2
+793 silly saveTree   +-- schema-utils@3.0.0
+793 silly saveTree   | +-- ajv-keywords@3.5.2
+793 silly saveTree   | `-- ajv@6.12.6
+793 silly saveTree   |   +-- fast-deep-equal@3.1.3
+793 silly saveTree   |   +-- fast-json-stable-stringify@2.1.0
+793 silly saveTree   |   +-- json-schema-traverse@0.4.1
+793 silly saveTree   |   `-- uri-js@4.4.1
+793 silly saveTree   |     `-- punycode@2.1.1
+793 silly saveTree   +-- terser-webpack-plugin@5.1.1
+793 silly saveTree   | +-- jest-worker@26.6.2
+793 silly saveTree   | | +-- @types/node@15.0.0
+793 silly saveTree   | | `-- supports-color@7.2.0
+793 silly saveTree   | |   `-- has-flag@4.0.0
+793 silly saveTree   | +-- p-limit@3.1.0
+793 silly saveTree   | | `-- yocto-queue@0.1.0
+793 silly saveTree   | +-- serialize-javascript@5.0.1
+793 silly saveTree   | | `-- randombytes@2.1.0
+793 silly saveTree   | `-- terser@5.7.0
+793 silly saveTree   |   +-- commander@2.20.3
+793 silly saveTree   |   `-- source-map@0.7.3
+793 silly saveTree   +-- watchpack@2.1.1
+793 silly saveTree   `-- webpack-sources@2.2.0
+793 silly saveTree     `-- source-list-map@2.0.1
+794 warn webpack-demo@1.0.0 No description
+795 warn webpack-demo@1.0.0 No repository field.
+796 verbose stack Error: EPERM: operation not permitted, rename 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json.1445598275' -> 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json'
+797 verbose cwd D:\jirengu\webpack-demo
+798 verbose Windows_NT 10.0.18363
+799 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save-dev" "html-webpack-plugin"
+800 verbose node v14.16.0
+801 verbose npm  v6.14.11
+802 error code EPERM
+803 error syscall rename
+804 error path D:\jirengu\webpack-demo\node_modules\string_decoder\package.json.1445598275
+805 error dest D:\jirengu\webpack-demo\node_modules\string_decoder\package.json
+806 error errno -4048
+807 error Error: EPERM: operation not permitted, rename 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json.1445598275' -> 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json'
+807 error  [OperationalError: EPERM: operation not permitted, rename 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json.1445598275' -> 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json'] {
+807 error   cause: [Error: EPERM: operation not permitted, rename 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json.1445598275' -> 'D:\jirengu\webpack-demo\node_modules\string_decoder\package.json'] {
+807 error     errno: -4048,
+807 error     code: 'EPERM',
+807 error     syscall: 'rename',
+807 error     path: 'D:\\jirengu\\webpack-demo\\node_modules\\string_decoder\\package.json.1445598275',
+807 error     dest: 'D:\\jirengu\\webpack-demo\\node_modules\\string_decoder\\package.json'
+807 error   },
+807 error   errno: -4048,
+807 error   code: 'EPERM',
+807 error   syscall: 'rename',
+807 error   path: 'D:\\jirengu\\webpack-demo\\node_modules\\string_decoder\\package.json.1445598275',
+807 error   dest: 'D:\\jirengu\\webpack-demo\\node_modules\\string_decoder\\package.json',
+807 error   parent: 'webpack-demo'
+807 error }
+808 error The operation was rejected by your operating system.
+808 error It's possible that the file was already in use (by a text editor or antivirus),
+808 error or that you lack permissions to access it.
+808 error
+808 error If you believe this might be a permissions issue, please double-check the
+808 error permissions of the file and its containing directories, or try running
+808 error the command again as root/Administrator.
+809 verbose exit [ -4048, true ]
