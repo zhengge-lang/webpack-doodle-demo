@@ -1,0 +1,885 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@6.14.11
+3 info using node@v14.16.0
+4 verbose npm-session e99c188ebc62a392
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall node@0.0.0
+7 info lifecycle node@0.0.0~preinstall: node@0.0.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 1009ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 7ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 551ms
+16 silly install loadAllDepsIntoIdealTree
+17 http fetch GET 404 https://registry.npmjs.com/grunt-node 3423ms
+18 http fetch GET 404 https://registry.npmjs.com/grunt-node 678ms
+19 silly fetchPackageMetaData error for grunt-node@^0.4.2 404 Not Found - GET https://registry.npmjs.com/grunt-node - Not found
+20 http fetch GET 404 https://registry.npmjs.com/grunt-node 698ms
+21 http fetch GET 404 https://registry.npmjs.com/grunt-node 789ms
+22 silly fetchPackageMetaData error for grunt-node@^0.4.2 404 Not Found - GET https://registry.npmjs.com/grunt-node - Not found
+23 timing stage:rollbackFailedOptional Completed in 0ms
+24 timing stage:runTopLevelLifecycles Completed in 7230ms
+25 silly saveTree node@0.0.0
+25 silly saveTree +-- art-template@4.13.2
+25 silly saveTree | +-- acorn@5.7.4
+25 silly saveTree | +-- escodegen@1.14.3
+25 silly saveTree | | +-- esprima@4.0.1
+25 silly saveTree | | +-- estraverse@4.3.0
+25 silly saveTree | | +-- esutils@2.0.3
+25 silly saveTree | | +-- optionator@0.8.3
+25 silly saveTree | | | +-- deep-is@0.1.3
+25 silly saveTree | | | +-- fast-levenshtein@2.0.6
+25 silly saveTree | | | +-- levn@0.3.0
+25 silly saveTree | | | | +-- prelude-ls@1.1.2
+25 silly saveTree | | | | `-- type-check@0.3.2
+25 silly saveTree | | | +-- prelude-ls@1.1.2
+25 silly saveTree | | | +-- type-check@0.3.2
+25 silly saveTree | | | `-- word-wrap@1.2.3
+25 silly saveTree | | `-- source-map@0.6.1
+25 silly saveTree | +-- estraverse@4.3.0
+25 silly saveTree | +-- html-minifier@3.5.21
+25 silly saveTree | | +-- camel-case@3.0.0
+25 silly saveTree | | | +-- no-case@2.3.2
+25 silly saveTree | | | | `-- lower-case@1.1.4
+25 silly saveTree | | | `-- upper-case@1.1.3
+25 silly saveTree | | +-- clean-css@4.2.3
+25 silly saveTree | | | `-- source-map@0.6.1
+25 silly saveTree | | +-- commander@2.17.1
+25 silly saveTree | | +-- he@1.2.0
+25 silly saveTree | | +-- param-case@2.1.1
+25 silly saveTree | | +-- relateurl@0.2.7
+25 silly saveTree | | `-- uglify-js@3.4.10
+25 silly saveTree | |   +-- commander@2.19.0
+25 silly saveTree | |   `-- source-map@0.6.1
+25 silly saveTree | +-- is-keyword-js@1.0.3
+25 silly saveTree | +-- js-tokens@3.0.2
+25 silly saveTree | +-- merge-source-map@1.1.0
+25 silly saveTree | | `-- source-map@0.6.1
+25 silly saveTree | `-- source-map@0.5.7
+25 silly saveTree +-- babel-cli@6.26.0
+25 silly saveTree | +-- babel-core@6.26.3
+25 silly saveTree | | +-- babel-code-frame@6.26.0
+25 silly saveTree | | | `-- chalk@1.1.3
+25 silly saveTree | | |   +-- ansi-styles@2.2.1
+25 silly saveTree | | |   +-- escape-string-regexp@1.0.5
+25 silly saveTree | | |   +-- has-ansi@2.0.0
+25 silly saveTree | | |   | `-- ansi-regex@2.1.1
+25 silly saveTree | | |   +-- strip-ansi@3.0.1
+25 silly saveTree | | |   `-- supports-color@2.0.0
+25 silly saveTree | | +-- babel-generator@6.26.1
+25 silly saveTree | | | +-- babel-messages@6.23.0
+25 silly saveTree | | | | `-- babel-runtime@6.26.0
+25 silly saveTree | | | |   +-- core-js@2.6.12
+25 silly saveTree | | | |   `-- regenerator-runtime@0.11.1
+25 silly saveTree | | | +-- babel-runtime@6.26.0
+25 silly saveTree | | | +-- babel-types@6.26.0
+25 silly saveTree | | | | +-- lodash@4.17.21
+25 silly saveTree | | | | `-- to-fast-properties@1.0.3
+25 silly saveTree | | | +-- detect-indent@4.0.0
+25 silly saveTree | | | | `-- repeating@2.0.1
+25 silly saveTree | | | |   `-- is-finite@1.1.0
+25 silly saveTree | | | +-- jsesc@1.3.0
+25 silly saveTree | | | +-- lodash@4.17.21
+25 silly saveTree | | | +-- source-map@0.5.7
+25 silly saveTree | | | `-- trim-right@1.0.1
+25 silly saveTree | | +-- babel-helpers@6.24.1
+25 silly saveTree | | | `-- babel-template@6.26.0
+25 silly saveTree | | |   +-- babel-traverse@6.26.0
+25 silly saveTree | | |   | +-- babylon@6.18.0
+25 silly saveTree | | |   | +-- debug@2.6.9
+25 silly saveTree | | |   | | `-- ms@2.0.0
+25 silly saveTree | | |   | +-- globals@9.18.0
+25 silly saveTree | | |   | `-- invariant@2.2.4
+25 silly saveTree | | |   |   `-- loose-envify@1.4.0
+25 silly saveTree | | |   `-- babylon@6.18.0
+25 silly saveTree | | +-- babel-messages@6.23.0
+25 silly saveTree | | +-- babel-register@6.26.0
+25 silly saveTree | | | +-- home-or-tmp@2.0.0
+25 silly saveTree | | | | +-- os-homedir@1.0.2
+25 silly saveTree | | | | `-- os-tmpdir@1.0.2
+25 silly saveTree | | | +-- mkdirp@0.5.5
+25 silly saveTree | | | | `-- minimist@1.2.5
+25 silly saveTree | | | `-- source-map-support@0.4.18
+25 silly saveTree | | |   `-- source-map@0.5.7
+25 silly saveTree | | +-- babel-runtime@6.26.0
+25 silly saveTree | | +-- babel-template@6.26.0
+25 silly saveTree | | +-- babel-traverse@6.26.0
+25 silly saveTree | | +-- babel-types@6.26.0
+25 silly saveTree | | +-- babylon@6.18.0
+25 silly saveTree | | +-- convert-source-map@1.7.0
+25 silly saveTree | | | `-- safe-buffer@5.1.2
+25 silly saveTree | | +-- debug@2.6.9
+25 silly saveTree | | | `-- ms@2.0.0
+25 silly saveTree | | +-- json5@0.5.1
+25 silly saveTree | | +-- lodash@4.17.21
+25 silly saveTree | | +-- minimatch@3.0.4
+25 silly saveTree | | | `-- brace-expansion@1.1.11
+25 silly saveTree | | |   +-- balanced-match@1.0.2
+25 silly saveTree | | |   `-- concat-map@0.0.1
+25 silly saveTree | | +-- path-is-absolute@1.0.1
+25 silly saveTree | | +-- private@0.1.8
+25 silly saveTree | | +-- slash@1.0.0
+25 silly saveTree | | `-- source-map@0.5.7
+25 silly saveTree | +-- babel-polyfill@6.26.0
+25 silly saveTree | | `-- regenerator-runtime@0.10.5
+25 silly saveTree | +-- babel-register@6.26.0
+25 silly saveTree | +-- babel-runtime@6.26.0
+25 silly saveTree | +-- chokidar@1.7.0
+25 silly saveTree | | +-- anymatch@1.3.2
+25 silly saveTree | | | +-- micromatch@2.3.11
+25 silly saveTree | | | | +-- arr-diff@2.0.0
+25 silly saveTree | | | | | `-- arr-flatten@1.1.0
+25 silly saveTree | | | | +-- array-unique@0.2.1
+25 silly saveTree | | | | +-- braces@1.8.5
+25 silly saveTree | | | | | +-- expand-range@1.8.2
+25 silly saveTree | | | | | | `-- fill-range@2.2.4
+25 silly saveTree | | | | | |   +-- is-number@2.1.0
+25 silly saveTree | | | | | |   | `-- kind-of@3.2.2
+25 silly saveTree | | | | | |   |   `-- is-buffer@1.1.6
+25 silly saveTree | | | | | |   +-- isobject@2.1.0
+25 silly saveTree | | | | | |   | `-- isarray@1.0.0
+25 silly saveTree | | | | | |   +-- randomatic@3.1.1
+25 silly saveTree | | | | | |   | +-- is-number@4.0.0
+25 silly saveTree | | | | | |   | +-- kind-of@6.0.3
+25 silly saveTree | | | | | |   | `-- math-random@1.0.4
+25 silly saveTree | | | | | |   +-- repeat-element@1.1.4
+25 silly saveTree | | | | | |   `-- repeat-string@1.6.1
+25 silly saveTree | | | | | +-- preserve@0.2.0
+25 silly saveTree | | | | | `-- repeat-element@1.1.4
+25 silly saveTree | | | | +-- expand-brackets@0.1.5
+25 silly saveTree | | | | | `-- is-posix-bracket@0.1.1
+25 silly saveTree | | | | +-- extglob@0.3.2
+25 silly saveTree | | | | | `-- is-extglob@1.0.0
+25 silly saveTree | | | | +-- filename-regex@2.0.1
+25 silly saveTree | | | | +-- is-extglob@1.0.0
+25 silly saveTree | | | | +-- is-glob@2.0.1
+25 silly saveTree | | | | +-- kind-of@3.2.2
+25 silly saveTree | | | | +-- normalize-path@2.1.1
+25 silly saveTree | | | | | `-- remove-trailing-separator@1.1.0
+25 silly saveTree | | | | +-- object.omit@2.0.1
+25 silly saveTree | | | | | +-- for-own@0.1.5
+25 silly saveTree | | | | | | `-- for-in@1.0.2
+25 silly saveTree | | | | | `-- is-extendable@0.1.1
+25 silly saveTree | | | | +-- parse-glob@3.0.4
+25 silly saveTree | | | | | +-- glob-base@0.3.0
+25 silly saveTree | | | | | | +-- glob-parent@2.0.0
+25 silly saveTree | | | | | | | `-- is-glob@2.0.1
+25 silly saveTree | | | | | | |   `-- is-extglob@1.0.0
+25 silly saveTree | | | | | | `-- is-glob@2.0.1
+25 silly saveTree | | | | | +-- is-dotfile@1.0.3
+25 silly saveTree | | | | | +-- is-extglob@1.0.0
+25 silly saveTree | | | | | `-- is-glob@2.0.1
+25 silly saveTree | | | | `-- regex-cache@0.4.4
+25 silly saveTree | | | |   `-- is-equal-shallow@0.1.3
+25 silly saveTree | | | |     `-- is-primitive@2.0.0
+25 silly saveTree | | | `-- normalize-path@2.1.1
+25 silly saveTree | | +-- async-each@1.0.3
+25 silly saveTree | | +-- fsevents@1.2.13
+25 silly saveTree | | | +-- bindings@1.5.0
+25 silly saveTree | | | | `-- file-uri-to-path@1.0.0
+25 silly saveTree | | | `-- nan@2.14.2
+25 silly saveTree | | +-- glob-parent@2.0.0
+25 silly saveTree | | | `-- is-glob@2.0.1
+25 silly saveTree | | |   `-- is-extglob@1.0.0
+25 silly saveTree | | +-- inherits@2.0.4
+25 silly saveTree | | +-- is-binary-path@1.0.1
+25 silly saveTree | | | `-- binary-extensions@1.13.1
+25 silly saveTree | | +-- is-glob@2.0.1
+25 silly saveTree | | `-- readdirp@2.2.1
+25 silly saveTree | |   +-- graceful-fs@4.2.6
+25 silly saveTree | |   +-- micromatch@3.1.10
+25 silly saveTree | |   | +-- arr-diff@4.0.0
+25 silly saveTree | |   | +-- array-unique@0.3.2
+25 silly saveTree | |   | +-- braces@2.3.2
+25 silly saveTree | |   | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | +-- fill-range@4.0.0
+25 silly saveTree | |   | | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | | +-- is-number@3.0.0
+25 silly saveTree | |   | | | | `-- kind-of@3.2.2
+25 silly saveTree | |   | | | `-- to-regex-range@2.1.1
+25 silly saveTree | |   | | |   `-- is-number@3.0.0
+25 silly saveTree | |   | | +-- isobject@3.0.1
+25 silly saveTree | |   | | +-- snapdragon-node@2.1.1
+25 silly saveTree | |   | | | +-- define-property@1.0.0
+25 silly saveTree | |   | | | | `-- is-descriptor@1.0.2
+25 silly saveTree | |   | | | |   +-- is-accessor-descriptor@1.0.0
+25 silly saveTree | |   | | | |   | `-- kind-of@6.0.3
+25 silly saveTree | |   | | | |   +-- is-data-descriptor@1.0.0
+25 silly saveTree | |   | | | |   `-- kind-of@6.0.3
+25 silly saveTree | |   | | | `-- snapdragon-util@3.0.1
+25 silly saveTree | |   | | +-- snapdragon@0.8.2
+25 silly saveTree | |   | | | +-- base@0.11.2
+25 silly saveTree | |   | | | | +-- cache-base@1.0.1
+25 silly saveTree | |   | | | | | +-- collection-visit@1.0.0
+25 silly saveTree | |   | | | | | | +-- map-visit@1.0.0
+25 silly saveTree | |   | | | | | | | `-- object-visit@1.0.1
+25 silly saveTree | |   | | | | | | `-- object-visit@1.0.1
+25 silly saveTree | |   | | | | | +-- component-emitter@1.3.0
+25 silly saveTree | |   | | | | | +-- get-value@2.0.6
+25 silly saveTree | |   | | | | | +-- has-value@1.0.0
+25 silly saveTree | |   | | | | | | `-- has-values@1.0.0
+25 silly saveTree | |   | | | | | |   +-- is-number@3.0.0
+25 silly saveTree | |   | | | | | |   | `-- kind-of@3.2.2
+25 silly saveTree | |   | | | | | |   `-- kind-of@4.0.0
+25 silly saveTree | |   | | | | | +-- set-value@2.0.1
+25 silly saveTree | |   | | | | | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | | | | | +-- is-plain-object@2.0.4
+25 silly saveTree | |   | | | | | | `-- split-string@3.1.0
+25 silly saveTree | |   | | | | | |   `-- extend-shallow@3.0.2
+25 silly saveTree | |   | | | | | |     +-- assign-symbols@1.0.0
+25 silly saveTree | |   | | | | | |     `-- is-extendable@1.0.1
+25 silly saveTree | |   | | | | | +-- to-object-path@0.3.0
+25 silly saveTree | |   | | | | | +-- union-value@1.0.1
+25 silly saveTree | |   | | | | | | `-- arr-union@3.1.0
+25 silly saveTree | |   | | | | | `-- unset-value@1.0.0
+25 silly saveTree | |   | | | | |   `-- has-value@0.3.1
+25 silly saveTree | |   | | | | |     +-- has-values@0.1.4
+25 silly saveTree | |   | | | | |     `-- isobject@2.1.0
+25 silly saveTree | |   | | | | +-- class-utils@0.3.6
+25 silly saveTree | |   | | | | | +-- define-property@0.2.5
+25 silly saveTree | |   | | | | | | `-- is-descriptor@0.1.6
+25 silly saveTree | |   | | | | | |   +-- is-accessor-descriptor@0.1.6
+25 silly saveTree | |   | | | | | |   +-- is-data-descriptor@0.1.4
+25 silly saveTree | |   | | | | | |   `-- kind-of@5.1.0
+25 silly saveTree | |   | | | | | `-- static-extend@0.1.2
+25 silly saveTree | |   | | | | |   +-- define-property@0.2.5
+25 silly saveTree | |   | | | | |   `-- object-copy@0.1.0
+25 silly saveTree | |   | | | | |     +-- copy-descriptor@0.1.1
+25 silly saveTree | |   | | | | |     `-- define-property@0.2.5
+25 silly saveTree | |   | | | | +-- component-emitter@1.3.0
+25 silly saveTree | |   | | | | +-- define-property@1.0.0
+25 silly saveTree | |   | | | | | `-- is-descriptor@1.0.2
+25 silly saveTree | |   | | | | |   +-- is-accessor-descriptor@1.0.0
+25 silly saveTree | |   | | | | |   | `-- kind-of@6.0.3
+25 silly saveTree | |   | | | | |   +-- is-data-descriptor@1.0.0
+25 silly saveTree | |   | | | | |   `-- kind-of@6.0.3
+25 silly saveTree | |   | | | | +-- mixin-deep@1.3.2
+25 silly saveTree | |   | | | | | `-- is-extendable@1.0.1
+25 silly saveTree | |   | | | | `-- pascalcase@0.1.1
+25 silly saveTree | |   | | | +-- debug@2.2.0
+25 silly saveTree | |   | | | | `-- ms@0.7.1
+25 silly saveTree | |   | | | +-- define-property@0.2.5
+25 silly saveTree | |   | | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | | +-- map-cache@0.2.2
+25 silly saveTree | |   | | | +-- source-map-resolve@0.5.3
+25 silly saveTree | |   | | | | +-- atob@2.1.2
+25 silly saveTree | |   | | | | +-- decode-uri-component@0.2.0
+25 silly saveTree | |   | | | | +-- resolve-url@0.2.1
+25 silly saveTree | |   | | | | +-- source-map-url@0.4.1
+25 silly saveTree | |   | | | | `-- urix@0.1.0
+25 silly saveTree | |   | | | +-- source-map@0.5.7
+25 silly saveTree | |   | | | `-- use@3.1.1
+25 silly saveTree | |   | | +-- split-string@3.1.0
+25 silly saveTree | |   | | `-- to-regex@3.0.2
+25 silly saveTree | |   | |   +-- define-property@2.0.2
+25 silly saveTree | |   | |   | `-- is-descriptor@1.0.2
+25 silly saveTree | |   | |   |   +-- is-accessor-descriptor@1.0.0
+25 silly saveTree | |   | |   |   | `-- kind-of@6.0.3
+25 silly saveTree | |   | |   |   +-- is-data-descriptor@1.0.0
+25 silly saveTree | |   | |   |   `-- kind-of@6.0.3
+25 silly saveTree | |   | |   +-- regex-not@1.0.2
+25 silly saveTree | |   | |   | `-- safe-regex@1.1.0
+25 silly saveTree | |   | |   |   `-- ret@0.1.15
+25 silly saveTree | |   | |   `-- safe-regex@1.1.0
+25 silly saveTree | |   | +-- define-property@2.0.2
+25 silly saveTree | |   | +-- extend-shallow@3.0.2
+25 silly saveTree | |   | +-- extglob@2.0.4
+25 silly saveTree | |   | | +-- define-property@1.0.0
+25 silly saveTree | |   | | | `-- is-descriptor@1.0.2
+25 silly saveTree | |   | | |   +-- is-accessor-descriptor@1.0.0
+25 silly saveTree | |   | | |   | `-- kind-of@6.0.3
+25 silly saveTree | |   | | |   +-- is-data-descriptor@1.0.0
+25 silly saveTree | |   | | |   `-- kind-of@6.0.3
+25 silly saveTree | |   | | +-- expand-brackets@2.1.4
+25 silly saveTree | |   | | | +-- debug@2.6.9
+25 silly saveTree | |   | | | | `-- ms@2.0.0
+25 silly saveTree | |   | | | +-- define-property@0.2.5
+25 silly saveTree | |   | | | | `-- is-descriptor@0.1.6
+25 silly saveTree | |   | | | |   +-- is-accessor-descriptor@0.1.6
+25 silly saveTree | |   | | | |   | `-- kind-of@3.2.2
+25 silly saveTree | |   | | | |   +-- is-data-descriptor@0.1.4
+25 silly saveTree | |   | | | |   | `-- kind-of@3.2.2
+25 silly saveTree | |   | | | |   `-- kind-of@5.1.0
+25 silly saveTree | |   | | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | | `-- posix-character-classes@0.1.1
+25 silly saveTree | |   | | +-- extend-shallow@2.0.1
+25 silly saveTree | |   | | `-- fragment-cache@0.2.1
+25 silly saveTree | |   | +-- fragment-cache@0.2.1
+25 silly saveTree | |   | +-- kind-of@6.0.3
+25 silly saveTree | |   | +-- nanomatch@1.2.13
+25 silly saveTree | |   | | +-- arr-diff@4.0.0
+25 silly saveTree | |   | | +-- array-unique@0.3.2
+25 silly saveTree | |   | | +-- is-windows@1.0.2
+25 silly saveTree | |   | | +-- kind-of@6.0.3
+25 silly saveTree | |   | | `-- object.pick@1.3.0
+25 silly saveTree | |   | +-- object.pick@1.3.0
+25 silly saveTree | |   | +-- regex-not@1.0.2
+25 silly saveTree | |   | +-- snapdragon@0.8.2
+25 silly saveTree | |   | `-- to-regex@3.0.2
+25 silly saveTree | |   `-- readable-stream@2.3.7
+25 silly saveTree | |     +-- core-util-is@1.0.2
+25 silly saveTree | |     +-- process-nextick-args@2.0.1
+25 silly saveTree | |     +-- string_decoder@1.1.1
+25 silly saveTree | |     `-- util-deprecate@1.0.2
+25 silly saveTree | +-- convert-source-map@1.7.0
+25 silly saveTree | +-- fs-readdir-recursive@1.1.0
+25 silly saveTree | +-- glob@7.1.7
+25 silly saveTree | | +-- fs.realpath@1.0.0
+25 silly saveTree | | +-- inflight@1.0.6
+25 silly saveTree | | | +-- once@1.4.0
+25 silly saveTree | | | | `-- wrappy@1.0.2
+25 silly saveTree | | | `-- wrappy@1.0.2
+25 silly saveTree | | `-- once@1.4.0
+25 silly saveTree | +-- lodash@4.17.21
+25 silly saveTree | +-- output-file-sync@1.1.2
+25 silly saveTree | | +-- mkdirp@0.5.5
+25 silly saveTree | | `-- object-assign@4.1.1
+25 silly saveTree | +-- path-is-absolute@1.0.1
+25 silly saveTree | +-- slash@1.0.0
+25 silly saveTree | +-- source-map@0.5.7
+25 silly saveTree | `-- v8flags@2.1.1
+25 silly saveTree |   `-- user-home@1.1.1
+25 silly saveTree +-- babel-core@6.26.3
+25 silly saveTree +-- babel-preset-es2015@6.24.1
+25 silly saveTree | +-- babel-plugin-check-es2015-constants@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-arrow-functions@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-block-scoped-functions@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-block-scoping@6.26.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-classes@6.24.1
+25 silly saveTree | | +-- babel-helper-define-map@6.26.0
+25 silly saveTree | | | `-- babel-helper-function-name@6.24.1
+25 silly saveTree | | |   `-- babel-helper-get-function-arity@6.24.1
+25 silly saveTree | | +-- babel-helper-function-name@6.24.1
+25 silly saveTree | | +-- babel-helper-optimise-call-expression@6.24.1
+25 silly saveTree | | `-- babel-helper-replace-supers@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-computed-properties@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-destructuring@6.23.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-duplicate-keys@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-for-of@6.23.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-function-name@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-literals@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-modules-amd@6.24.1
+25 silly saveTree | | `-- babel-plugin-transform-es2015-modules-commonjs@6.26.2
+25 silly saveTree | |   `-- babel-plugin-transform-strict-mode@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-modules-commonjs@6.26.2
+25 silly saveTree | +-- babel-plugin-transform-es2015-modules-systemjs@6.24.1
+25 silly saveTree | | `-- babel-helper-hoist-variables@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-modules-umd@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-object-super@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-parameters@6.24.1
+25 silly saveTree | | `-- babel-helper-call-delegate@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-shorthand-properties@6.24.1
+25 silly saveTree | +-- babel-plugin-transform-es2015-spread@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-sticky-regex@6.24.1
+25 silly saveTree | | `-- babel-helper-regex@6.26.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-template-literals@6.22.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-typeof-symbol@6.23.0
+25 silly saveTree | +-- babel-plugin-transform-es2015-unicode-regex@6.24.1
+25 silly saveTree | | `-- regexpu-core@2.0.0
+25 silly saveTree | |   +-- regenerate@1.4.2
+25 silly saveTree | |   +-- regjsgen@0.2.0
+25 silly saveTree | |   `-- regjsparser@0.1.5
+25 silly saveTree | |     `-- jsesc@0.5.0
+25 silly saveTree | `-- babel-plugin-transform-regenerator@6.26.0
+25 silly saveTree |   `-- regenerator-transform@0.10.1
+25 silly saveTree +-- body-parser@1.15.2
+25 silly saveTree | +-- bytes@2.4.0
+25 silly saveTree | +-- content-type@1.0.4
+25 silly saveTree | +-- debug@2.2.0
+25 silly saveTree | +-- depd@1.1.2
+25 silly saveTree | +-- http-errors@1.5.1
+25 silly saveTree | | +-- inherits@2.0.3
+25 silly saveTree | | +-- setprototypeof@1.0.2
+25 silly saveTree | | `-- statuses@1.5.0
+25 silly saveTree | +-- iconv-lite@0.4.13
+25 silly saveTree | +-- on-finished@2.3.0
+25 silly saveTree | | `-- ee-first@1.1.1
+25 silly saveTree | +-- qs@6.2.0
+25 silly saveTree | +-- raw-body@2.1.7
+25 silly saveTree | | +-- iconv-lite@0.4.13
+25 silly saveTree | | `-- unpipe@1.0.0
+25 silly saveTree | `-- type-is@1.6.18
+25 silly saveTree |   +-- media-typer@0.3.0
+25 silly saveTree |   `-- mime-types@2.1.30
+25 silly saveTree |     `-- mime-db@1.47.0
+25 silly saveTree +-- cookie-parser@1.4.5
+25 silly saveTree | +-- cookie-signature@1.0.6
+25 silly saveTree | `-- cookie@0.4.0
+25 silly saveTree +-- debug@2.2.0
+25 silly saveTree +-- express@4.17.1
+25 silly saveTree | +-- accepts@1.3.7
+25 silly saveTree | | `-- negotiator@0.6.2
+25 silly saveTree | +-- array-flatten@1.1.1
+25 silly saveTree | +-- body-parser@1.19.0
+25 silly saveTree | | +-- bytes@3.1.0
+25 silly saveTree | | +-- debug@2.6.9
+25 silly saveTree | | | `-- ms@2.0.0
+25 silly saveTree | | +-- http-errors@1.7.2
+25 silly saveTree | | | +-- inherits@2.0.3
+25 silly saveTree | | | +-- setprototypeof@1.1.1
+25 silly saveTree | | | +-- statuses@1.5.0
+25 silly saveTree | | | `-- toidentifier@1.0.0
+25 silly saveTree | | +-- iconv-lite@0.4.24
+25 silly saveTree | | | `-- safer-buffer@2.1.2
+25 silly saveTree | | +-- qs@6.7.0
+25 silly saveTree | | `-- raw-body@2.4.0
+25 silly saveTree | |   +-- http-errors@1.7.2
+25 silly saveTree | |   `-- iconv-lite@0.4.24
+25 silly saveTree | +-- content-disposition@0.5.3
+25 silly saveTree | +-- debug@2.6.9
+25 silly saveTree | +-- encodeurl@1.0.2
+25 silly saveTree | +-- escape-html@1.0.3
+25 silly saveTree | +-- etag@1.8.1
+25 silly saveTree | +-- finalhandler@1.1.2
+25 silly saveTree | | +-- debug@2.6.9
+25 silly saveTree | | | `-- ms@2.0.0
+25 silly saveTree | | `-- parseurl@1.3.3
+25 silly saveTree | +-- fresh@0.5.2
+25 silly saveTree | +-- merge-descriptors@1.0.1
+25 silly saveTree | +-- methods@1.1.2
+25 silly saveTree | +-- parseurl@1.3.3
+25 silly saveTree | +-- path-to-regexp@0.1.7
+25 silly saveTree | +-- proxy-addr@2.0.6
+25 silly saveTree | | +-- forwarded@0.1.2
+25 silly saveTree | | `-- ipaddr.js@1.9.1
+25 silly saveTree | +-- qs@6.7.0
+25 silly saveTree | +-- range-parser@1.2.1
+25 silly saveTree | +-- send@0.17.1
+25 silly saveTree | | +-- debug@2.6.9
+25 silly saveTree | | | `-- ms@2.0.0
+25 silly saveTree | | +-- destroy@1.0.4
+25 silly saveTree | | +-- http-errors@1.7.3
+25 silly saveTree | | +-- mime@1.6.0
+25 silly saveTree | | `-- ms@2.1.1
+25 silly saveTree | +-- serve-static@1.14.1
+25 silly saveTree | +-- setprototypeof@1.1.1
+25 silly saveTree | +-- statuses@1.5.0
+25 silly saveTree | +-- utils-merge@1.0.1
+25 silly saveTree | `-- vary@1.1.2
+25 silly saveTree +-- grunt-concurrent@2.3.1
+25 silly saveTree | +-- arrify@1.0.1
+25 silly saveTree | +-- async@1.5.2
+25 silly saveTree | +-- indent-string@2.1.0
+25 silly saveTree | `-- pad-stream@1.2.0
+25 silly saveTree |   +-- meow@3.7.0
+25 silly saveTree |   | +-- camelcase-keys@2.1.0
+25 silly saveTree |   | | +-- camelcase@2.1.1
+25 silly saveTree |   | | `-- map-obj@1.0.1
+25 silly saveTree |   | +-- decamelize@1.2.0
+25 silly saveTree |   | +-- loud-rejection@1.6.0
+25 silly saveTree |   | | +-- currently-unhandled@0.4.1
+25 silly saveTree |   | | | `-- array-find-index@1.0.2
+25 silly saveTree |   | | `-- signal-exit@3.0.3
+25 silly saveTree |   | +-- map-obj@1.0.1
+25 silly saveTree |   | +-- normalize-package-data@2.5.0
+25 silly saveTree |   | | +-- hosted-git-info@2.8.9
+25 silly saveTree |   | | +-- resolve@1.20.0
+25 silly saveTree |   | | | +-- is-core-module@2.4.0
+25 silly saveTree |   | | | | `-- has@1.0.3
+25 silly saveTree |   | | | |   `-- function-bind@1.1.1
+25 silly saveTree |   | | | `-- path-parse@1.0.6
+25 silly saveTree |   | | +-- semver@5.7.1
+25 silly saveTree |   | | `-- validate-npm-package-license@3.0.4
+25 silly saveTree |   | |   +-- spdx-correct@3.1.1
+25 silly saveTree |   | |   | +-- spdx-expression-parse@3.0.1
+25 silly saveTree |   | |   | | +-- spdx-exceptions@2.3.0
+25 silly saveTree |   | |   | | `-- spdx-license-ids@3.0.7
+25 silly saveTree |   | |   | `-- spdx-license-ids@3.0.7
+25 silly saveTree |   | |   `-- spdx-expression-parse@3.0.1
+25 silly saveTree |   | +-- read-pkg-up@1.0.1
+25 silly saveTree |   | | +-- find-up@1.1.2
+25 silly saveTree |   | | | +-- path-exists@2.1.0
+25 silly saveTree |   | | | | `-- pinkie-promise@2.0.1
+25 silly saveTree |   | | | |   `-- pinkie@2.0.4
+25 silly saveTree |   | | | `-- pinkie-promise@2.0.1
+25 silly saveTree |   | | `-- read-pkg@1.1.0
+25 silly saveTree |   | |   +-- load-json-file@1.1.0
+25 silly saveTree |   | |   | +-- parse-json@2.2.0
+25 silly saveTree |   | |   | | `-- error-ex@1.3.2
+25 silly saveTree |   | |   | |   `-- is-arrayish@0.2.1
+25 silly saveTree |   | |   | +-- pify@2.3.0
+25 silly saveTree |   | |   | `-- strip-bom@2.0.0
+25 silly saveTree |   | |   |   `-- is-utf8@0.2.1
+25 silly saveTree |   | |   `-- path-type@1.1.0
+25 silly saveTree |   | +-- redent@1.0.0
+25 silly saveTree |   | | `-- strip-indent@1.0.1
+25 silly saveTree |   | |   `-- get-stdin@4.0.1
+25 silly saveTree |   | `-- trim-newlines@1.0.0
+25 silly saveTree |   +-- pumpify@1.5.1
+25 silly saveTree |   | +-- duplexify@3.7.1
+25 silly saveTree |   | | +-- end-of-stream@1.4.4
+25 silly saveTree |   | | `-- stream-shift@1.0.1
+25 silly saveTree |   | `-- pump@2.0.1
+25 silly saveTree |   +-- split2@1.1.1
+25 silly saveTree |   | `-- through2@2.0.5
+25 silly saveTree |   |   `-- xtend@4.0.2
+25 silly saveTree |   `-- through2@2.0.5
+25 silly saveTree +-- grunt-contrib-jshint@1.1.0
+25 silly saveTree | +-- chalk@1.1.3
+25 silly saveTree | | +-- ansi-styles@2.2.1
+25 silly saveTree | | `-- supports-color@2.0.0
+25 silly saveTree | +-- hooker@0.2.3
+25 silly saveTree | `-- jshint@2.9.7
+25 silly saveTree |   +-- cli@1.0.1
+25 silly saveTree |   | `-- exit@0.1.2
+25 silly saveTree |   +-- console-browserify@1.1.0
+25 silly saveTree |   | `-- date-now@0.1.4
+25 silly saveTree |   +-- exit@0.1.2
+25 silly saveTree |   +-- htmlparser2@3.8.3
+25 silly saveTree |   | +-- domelementtype@1.3.1
+25 silly saveTree |   | +-- domhandler@2.3.0
+25 silly saveTree |   | +-- domutils@1.5.1
+25 silly saveTree |   | | `-- dom-serializer@0.2.2
+25 silly saveTree |   | |   +-- domelementtype@2.2.0
+25 silly saveTree |   | |   `-- entities@2.2.0
+25 silly saveTree |   | +-- entities@1.0.0
+25 silly saveTree |   | `-- readable-stream@1.1.14
+25 silly saveTree |   |   +-- isarray@0.0.1
+25 silly saveTree |   |   `-- string_decoder@0.10.31
+25 silly saveTree |   +-- shelljs@0.3.0
+25 silly saveTree |   `-- strip-json-comments@1.0.4
+25 silly saveTree +-- grunt-contrib-watch@1.1.0
+25 silly saveTree | +-- async@2.6.3
+25 silly saveTree | +-- gaze@1.1.3
+25 silly saveTree | | `-- globule@1.3.2
+25 silly saveTree | `-- tiny-lr@1.1.1
+25 silly saveTree |   +-- body@5.1.0
+25 silly saveTree |   | +-- continuable-cache@0.3.1
+25 silly saveTree |   | +-- error@7.2.1
+25 silly saveTree |   | | `-- string-template@0.2.1
+25 silly saveTree |   | +-- raw-body@1.1.7
+25 silly saveTree |   | | `-- bytes@1.0.0
+25 silly saveTree |   | `-- safe-json-parse@1.0.1
+25 silly saveTree |   +-- debug@3.2.7
+25 silly saveTree |   | `-- ms@2.1.3
+25 silly saveTree |   +-- faye-websocket@0.10.0
+25 silly saveTree |   | `-- websocket-driver@0.7.4
+25 silly saveTree |   |   +-- http-parser-js@0.5.3
+25 silly saveTree |   |   `-- websocket-extensions@0.1.4
+25 silly saveTree |   +-- livereload-js@2.4.0
+25 silly saveTree |   `-- qs@6.10.1
+25 silly saveTree |     `-- side-channel@1.0.4
+25 silly saveTree |       +-- call-bind@1.0.2
+25 silly saveTree |       | `-- get-intrinsic@1.1.1
+25 silly saveTree |       |   `-- has-symbols@1.0.2
+25 silly saveTree |       +-- get-intrinsic@1.1.1
+25 silly saveTree |       `-- object-inspect@1.10.3
+25 silly saveTree +-- grunt-nodemon@0.4.2
+25 silly saveTree | `-- nodemon@1.19.4
+25 silly saveTree |   +-- chokidar@2.1.8
+25 silly saveTree |   | +-- anymatch@2.0.0
+25 silly saveTree |   | | +-- micromatch@3.1.10
+25 silly saveTree |   | | | +-- arr-diff@4.0.0
+25 silly saveTree |   | | | +-- array-unique@0.3.2
+25 silly saveTree |   | | | +-- braces@2.3.2
+25 silly saveTree |   | | | | +-- extend-shallow@2.0.1
+25 silly saveTree |   | | | | `-- fill-range@4.0.0
+25 silly saveTree |   | | | |   +-- extend-shallow@2.0.1
+25 silly saveTree |   | | | |   `-- is-number@3.0.0
+25 silly saveTree |   | | | |     `-- kind-of@3.2.2
+25 silly saveTree |   | | | +-- extglob@2.0.4
+25 silly saveTree |   | | | | +-- define-property@1.0.0
+25 silly saveTree |   | | | | | `-- is-descriptor@1.0.2
+25 silly saveTree |   | | | | |   +-- is-accessor-descriptor@1.0.0
+25 silly saveTree |   | | | | |   | `-- kind-of@6.0.3
+25 silly saveTree |   | | | | |   +-- is-data-descriptor@1.0.0
+25 silly saveTree |   | | | | |   `-- kind-of@6.0.3
+25 silly saveTree |   | | | | +-- expand-brackets@2.1.4
+25 silly saveTree |   | | | | | +-- debug@2.6.9
+25 silly saveTree |   | | | | | | `-- ms@2.0.0
+25 silly saveTree |   | | | | | +-- define-property@0.2.5
+25 silly saveTree |   | | | | | | `-- is-descriptor@0.1.6
+25 silly saveTree |   | | | | | |   +-- is-accessor-descriptor@0.1.6
+25 silly saveTree |   | | | | | |   | `-- kind-of@3.2.2
+25 silly saveTree |   | | | | | |   +-- is-data-descriptor@0.1.4
+25 silly saveTree |   | | | | | |   | `-- kind-of@3.2.2
+25 silly saveTree |   | | | | | |   `-- kind-of@5.1.0
+25 silly saveTree |   | | | | | `-- extend-shallow@2.0.1
+25 silly saveTree |   | | | | `-- extend-shallow@2.0.1
+25 silly saveTree |   | | | `-- kind-of@6.0.3
+25 silly saveTree |   | | `-- normalize-path@2.1.1
+25 silly saveTree |   | +-- braces@2.3.2
+25 silly saveTree |   | +-- glob-parent@3.1.0
+25 silly saveTree |   | | +-- is-glob@3.1.0
+25 silly saveTree |   | | | `-- is-extglob@2.1.1
+25 silly saveTree |   | | `-- path-dirname@1.0.2
+25 silly saveTree |   | +-- is-glob@4.0.1
+25 silly saveTree |   | +-- normalize-path@3.0.0
+25 silly saveTree |   | `-- upath@1.2.0
+25 silly saveTree |   +-- debug@3.2.7
+25 silly saveTree |   | `-- ms@2.1.3
+25 silly saveTree |   +-- ignore-by-default@1.0.1
+25 silly saveTree |   +-- pstree.remy@1.1.8
+25 silly saveTree |   +-- supports-color@5.5.0
+25 silly saveTree |   | `-- has-flag@3.0.0
+25 silly saveTree |   +-- touch@3.1.0
+25 silly saveTree |   | `-- nopt@1.0.10
+25 silly saveTree |   |   `-- abbrev@1.1.1
+25 silly saveTree |   +-- undefsafe@2.0.3
+25 silly saveTree |   | `-- debug@2.6.9
+25 silly saveTree |   |   `-- ms@2.0.0
+25 silly saveTree |   `-- update-notifier@2.5.0
+25 silly saveTree |     +-- boxen@1.3.0
+25 silly saveTree |     | +-- ansi-align@2.0.0
+25 silly saveTree |     | | `-- string-width@2.1.1
+25 silly saveTree |     | |   +-- is-fullwidth-code-point@2.0.0
+25 silly saveTree |     | |   `-- strip-ansi@4.0.0
+25 silly saveTree |     | |     `-- ansi-regex@3.0.0
+25 silly saveTree |     | +-- camelcase@4.1.0
+25 silly saveTree |     | +-- chalk@2.4.2
+25 silly saveTree |     | | `-- ansi-styles@3.2.1
+25 silly saveTree |     | |   `-- color-convert@1.9.3
+25 silly saveTree |     | |     `-- color-name@1.1.3
+25 silly saveTree |     | +-- cli-boxes@1.0.0
+25 silly saveTree |     | +-- string-width@2.1.1
+25 silly saveTree |     | +-- term-size@1.2.0
+25 silly saveTree |     | | `-- execa@0.7.0
+25 silly saveTree |     | |   +-- cross-spawn@5.1.0
+25 silly saveTree |     | |   | +-- lru-cache@4.1.5
+25 silly saveTree |     | |   | | +-- pseudomap@1.0.2
+25 silly saveTree |     | |   | | `-- yallist@2.1.2
+25 silly saveTree |     | |   | +-- shebang-command@1.2.0
+25 silly saveTree |     | |   | | `-- shebang-regex@1.0.0
+25 silly saveTree |     | |   | `-- which@1.3.1
+25 silly saveTree |     | |   |   `-- isexe@2.0.0
+25 silly saveTree |     | |   +-- get-stream@3.0.0
+25 silly saveTree |     | |   +-- is-stream@1.1.0
+25 silly saveTree |     | |   +-- npm-run-path@2.0.2
+25 silly saveTree |     | |   | `-- path-key@2.0.1
+25 silly saveTree |     | |   +-- p-finally@1.0.0
+25 silly saveTree |     | |   `-- strip-eof@1.0.0
+25 silly saveTree |     | `-- widest-line@2.0.1
+25 silly saveTree |     +-- chalk@2.4.2
+25 silly saveTree |     +-- configstore@3.1.5
+25 silly saveTree |     | +-- dot-prop@4.2.1
+25 silly saveTree |     | | `-- is-obj@1.0.1
+25 silly saveTree |     | +-- make-dir@1.3.0
+25 silly saveTree |     | | `-- pify@3.0.0
+25 silly saveTree |     | +-- unique-string@1.0.0
+25 silly saveTree |     | | `-- crypto-random-string@1.0.0
+25 silly saveTree |     | +-- write-file-atomic@2.4.3
+25 silly saveTree |     | | `-- imurmurhash@0.1.4
+25 silly saveTree |     | `-- xdg-basedir@3.0.0
+25 silly saveTree |     +-- import-lazy@2.1.0
+25 silly saveTree |     +-- is-ci@1.2.1
+25 silly saveTree |     | `-- ci-info@1.6.0
+25 silly saveTree |     +-- is-installed-globally@0.1.0
+25 silly saveTree |     | +-- global-dirs@0.1.1
+25 silly saveTree |     | | `-- ini@1.3.8
+25 silly saveTree |     | `-- is-path-inside@1.0.1
+25 silly saveTree |     |   `-- path-is-inside@1.0.2
+25 silly saveTree |     +-- is-npm@1.0.0
+25 silly saveTree |     +-- latest-version@3.1.0
+25 silly saveTree |     | `-- package-json@4.0.1
+25 silly saveTree |     |   +-- got@6.7.1
+25 silly saveTree |     |   | +-- create-error-class@3.0.2
+25 silly saveTree |     |   | | `-- capture-stack-trace@1.0.1
+25 silly saveTree |     |   | +-- duplexer3@0.1.4
+25 silly saveTree |     |   | +-- get-stream@3.0.0
+25 silly saveTree |     |   | +-- is-redirect@1.0.0
+25 silly saveTree |     |   | +-- is-retry-allowed@1.2.0
+25 silly saveTree |     |   | +-- lowercase-keys@1.0.1
+25 silly saveTree |     |   | +-- timed-out@4.0.1
+25 silly saveTree |     |   | +-- unzip-response@2.0.1
+25 silly saveTree |     |   | `-- url-parse-lax@1.0.0
+25 silly saveTree |     |   |   `-- prepend-http@1.0.4
+25 silly saveTree |     |   +-- registry-auth-token@3.4.0
+25 silly saveTree |     |   | `-- rc@1.2.8
+25 silly saveTree |     |   |   +-- deep-extend@0.6.0
+25 silly saveTree |     |   |   `-- strip-json-comments@2.0.1
+25 silly saveTree |     |   `-- registry-url@3.1.0
+25 silly saveTree |     +-- semver-diff@2.1.0
+25 silly saveTree |     `-- xdg-basedir@3.0.0
+25 silly saveTree +-- grunt@1.4.0
+25 silly saveTree | +-- dateformat@3.0.3
+25 silly saveTree | +-- eventemitter2@0.4.14
+25 silly saveTree | +-- findup-sync@0.3.0
+25 silly saveTree | | `-- glob@5.0.15
+25 silly saveTree | +-- grunt-cli@1.4.2
+25 silly saveTree | | +-- grunt-known-options@1.1.1
+25 silly saveTree | | +-- interpret@1.1.0
+25 silly saveTree | | +-- liftup@3.0.1
+25 silly saveTree | | | +-- extend@3.0.2
+25 silly saveTree | | | +-- findup-sync@4.0.0
+25 silly saveTree | | | | +-- detect-file@1.0.0
+25 silly saveTree | | | | +-- micromatch@4.0.4
+25 silly saveTree | | | | | +-- braces@3.0.2
+25 silly saveTree | | | | | | `-- fill-range@7.0.1
+25 silly saveTree | | | | | |   `-- to-regex-range@5.0.1
+25 silly saveTree | | | | | |     `-- is-number@7.0.0
+25 silly saveTree | | | | | `-- picomatch@2.2.3
+25 silly saveTree | | | | `-- resolve-dir@1.0.1
+25 silly saveTree | | | |   +-- expand-tilde@2.0.2
+25 silly saveTree | | | |   | `-- homedir-polyfill@1.0.3
+25 silly saveTree | | | |   |   `-- parse-passwd@1.0.0
+25 silly saveTree | | | |   `-- global-modules@1.0.0
+25 silly saveTree | | | |     `-- global-prefix@1.0.2
+25 silly saveTree | | | +-- fined@1.2.0
+25 silly saveTree | | | | +-- object.defaults@1.1.0
+25 silly saveTree | | | | | +-- array-each@1.0.1
+25 silly saveTree | | | | | +-- array-slice@1.1.0
+25 silly saveTree | | | | | `-- for-own@1.0.0
+25 silly saveTree | | | | `-- parse-filepath@1.0.2
+25 silly saveTree | | | |   +-- is-absolute@1.0.0
+25 silly saveTree | | | |   | `-- is-relative@1.0.0
+25 silly saveTree | | | |   |   `-- is-unc-path@1.0.0
+25 silly saveTree | | | |   |     `-- unc-path-regex@0.1.2
+25 silly saveTree | | | |   `-- path-root@0.1.1
+25 silly saveTree | | | |     `-- path-root-regex@0.1.2
+25 silly saveTree | | | +-- flagged-respawn@1.0.1
+25 silly saveTree | | | +-- object.map@1.0.1
+25 silly saveTree | | | | `-- make-iterator@1.0.1
+25 silly saveTree | | | |   `-- kind-of@6.0.3
+25 silly saveTree | | | `-- rechoir@0.7.0
+25 silly saveTree | | +-- nopt@4.0.3
+25 silly saveTree | | | `-- osenv@0.1.5
+25 silly saveTree | | `-- v8flags@3.2.0
+25 silly saveTree | +-- grunt-known-options@1.1.1
+25 silly saveTree | +-- grunt-legacy-log@3.0.0
+25 silly saveTree | | +-- colors@1.1.2
+25 silly saveTree | | `-- grunt-legacy-log-utils@2.1.0
+25 silly saveTree | |   `-- chalk@4.1.1
+25 silly saveTree | |     +-- ansi-styles@4.3.0
+25 silly saveTree | |     | `-- color-convert@2.0.1
+25 silly saveTree | |     |   `-- color-name@1.1.4
+25 silly saveTree | |     `-- supports-color@7.2.0
+25 silly saveTree | |       `-- has-flag@4.0.0
+25 silly saveTree | +-- grunt-legacy-util@2.0.1
+25 silly saveTree | | +-- async@3.2.0
+25 silly saveTree | | +-- getobject@1.0.0
+25 silly saveTree | | +-- underscore.string@3.3.5
+25 silly saveTree | | | `-- sprintf-js@1.1.2
+25 silly saveTree | | `-- which@2.0.2
+25 silly saveTree | +-- iconv-lite@0.4.24
+25 silly saveTree | +-- js-yaml@3.14.1
+25 silly saveTree | | `-- argparse@1.0.10
+25 silly saveTree | |   `-- sprintf-js@1.0.3
+25 silly saveTree | +-- mkdirp@1.0.4
+25 silly saveTree | +-- nopt@3.0.6
+25 silly saveTree | `-- rimraf@3.0.2
+25 silly saveTree +-- include-all@2.0.0
+25 silly saveTree | `-- lodash@3.10.1
+25 silly saveTree +-- morgan@1.7.0
+25 silly saveTree | +-- basic-auth@1.0.4
+25 silly saveTree | +-- debug@2.2.0
+25 silly saveTree | `-- on-headers@1.0.2
+25 silly saveTree +-- node-rsa@0.4.2
+25 silly saveTree | `-- asn1@0.2.3
+25 silly saveTree `-- nodemon@2.0.7
+25 silly saveTree   +-- chokidar@3.5.1
+25 silly saveTree   | +-- anymatch@3.1.2
+25 silly saveTree   | +-- braces@3.0.2
+25 silly saveTree   | | `-- fill-range@7.0.1
+25 silly saveTree   | |   `-- to-regex-range@5.0.1
+25 silly saveTree   | |     `-- is-number@7.0.0
+25 silly saveTree   | +-- fsevents@2.3.2
+25 silly saveTree   | +-- glob-parent@5.1.2
+25 silly saveTree   | +-- is-binary-path@2.1.0
+25 silly saveTree   | | `-- binary-extensions@2.2.0
+25 silly saveTree   | `-- readdirp@3.5.0
+25 silly saveTree   +-- debug@3.2.7
+25 silly saveTree   | `-- ms@2.1.3
+25 silly saveTree   `-- update-notifier@4.1.3
+25 silly saveTree     +-- boxen@4.2.0
+25 silly saveTree     | +-- ansi-align@3.0.0
+25 silly saveTree     | | `-- string-width@3.1.0
+25 silly saveTree     | |   +-- emoji-regex@7.0.3
+25 silly saveTree     | |   `-- strip-ansi@5.2.0
+25 silly saveTree     | |     `-- ansi-regex@4.1.0
+25 silly saveTree     | +-- camelcase@5.3.1
+25 silly saveTree     | +-- chalk@3.0.0
+25 silly saveTree     | | +-- ansi-styles@4.3.0
+25 silly saveTree     | | | `-- color-convert@2.0.1
+25 silly saveTree     | | |   `-- color-name@1.1.4
+25 silly saveTree     | | `-- supports-color@7.2.0
+25 silly saveTree     | |   `-- has-flag@4.0.0
+25 silly saveTree     | +-- cli-boxes@2.2.1
+25 silly saveTree     | +-- string-width@4.2.2
+25 silly saveTree     | | +-- emoji-regex@8.0.0
+25 silly saveTree     | | +-- is-fullwidth-code-point@3.0.0
+25 silly saveTree     | | `-- strip-ansi@6.0.0
+25 silly saveTree     | |   `-- ansi-regex@5.0.0
+25 silly saveTree     | +-- term-size@2.2.1
+25 silly saveTree     | +-- type-fest@0.8.1
+25 silly saveTree     | `-- widest-line@3.1.0
+25 silly saveTree     +-- chalk@3.0.0
+25 silly saveTree     +-- configstore@5.0.1
+25 silly saveTree     | +-- dot-prop@5.3.0
+25 silly saveTree     | | `-- is-obj@2.0.0
+25 silly saveTree     | +-- make-dir@3.1.0
+25 silly saveTree     | | `-- semver@6.3.0
+25 silly saveTree     | +-- unique-string@2.0.0
+25 silly saveTree     | | `-- crypto-random-string@2.0.0
+25 silly saveTree     | +-- write-file-atomic@3.0.3
+25 silly saveTree     | | +-- is-typedarray@1.0.0
+25 silly saveTree     | | `-- typedarray-to-buffer@3.1.5
+25 silly saveTree     | `-- xdg-basedir@4.0.0
+25 silly saveTree     +-- has-yarn@2.1.0
+25 silly saveTree     +-- is-ci@2.0.0
+25 silly saveTree     | `-- ci-info@2.0.0
+25 silly saveTree     +-- is-installed-globally@0.3.2
+25 silly saveTree     | +-- global-dirs@2.1.0
+25 silly saveTree     | | `-- ini@1.3.7
+25 silly saveTree     | `-- is-path-inside@3.0.3
+25 silly saveTree     +-- is-npm@4.0.0
+25 silly saveTree     +-- is-yarn-global@0.3.0
+25 silly saveTree     +-- latest-version@5.1.0
+25 silly saveTree     | `-- package-json@6.5.0
+25 silly saveTree     |   +-- got@9.6.0
+25 silly saveTree     |   | +-- @sindresorhus/is@0.14.0
+25 silly saveTree     |   | +-- @szmarczak/http-timer@1.1.2
+25 silly saveTree     |   | | `-- defer-to-connect@1.1.3
+25 silly saveTree     |   | +-- cacheable-request@6.1.0
+25 silly saveTree     |   | | +-- clone-response@1.0.2
+25 silly saveTree     |   | | | `-- mimic-response@1.0.1
+25 silly saveTree     |   | | +-- get-stream@5.2.0
+25 silly saveTree     |   | | | `-- pump@3.0.0
+25 silly saveTree     |   | | +-- http-cache-semantics@4.1.0
+25 silly saveTree     |   | | +-- keyv@3.1.0
+25 silly saveTree     |   | | | `-- json-buffer@3.0.0
+25 silly saveTree     |   | | +-- lowercase-keys@2.0.0
+25 silly saveTree     |   | | +-- normalize-url@4.5.0
+25 silly saveTree     |   | | `-- responselike@1.0.2
+25 silly saveTree     |   | +-- decompress-response@3.3.0
+25 silly saveTree     |   | +-- get-stream@4.1.0
+25 silly saveTree     |   | | `-- pump@3.0.0
+25 silly saveTree     |   | +-- mimic-response@1.0.1
+25 silly saveTree     |   | +-- p-cancelable@1.1.0
+25 silly saveTree     |   | +-- to-readable-stream@1.0.0
+25 silly saveTree     |   | `-- url-parse-lax@3.0.0
+25 silly saveTree     |   |   `-- prepend-http@2.0.0
+25 silly saveTree     |   +-- registry-auth-token@4.2.1
+25 silly saveTree     |   +-- registry-url@5.1.0
+25 silly saveTree     |   `-- semver@6.3.0
+25 silly saveTree     +-- pupa@2.1.1
+25 silly saveTree     | `-- escape-goat@2.1.1
+25 silly saveTree     +-- semver-diff@3.1.1
+25 silly saveTree     | `-- semver@6.3.0
+25 silly saveTree     `-- xdg-basedir@4.0.0
+26 verbose stack Error: 404 Not Found - GET https://registry.npmjs.com/grunt-node - Not found
+26 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-fetch\check-response.js:117:15
+26 verbose stack     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+27 verbose statusCode 404
+28 verbose pkgid grunt-node@^0.4.2
+29 verbose cwd D:\jirengu\FE-RSA\node
+30 verbose Windows_NT 10.0.18363
+31 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+32 verbose node v14.16.0
+33 verbose npm  v6.14.11
+34 error code E404
+35 error 404 Not Found - GET https://registry.npmjs.com/grunt-node - Not found
+36 error 404
+37 error 404 'grunt-node@^0.4.2' is not in the npm registry.
+38 error 404 You should bug the author to publish it (or use the name yourself!)
+39 error 404 It was specified as a dependency of 'node'
+40 error 404 Note that you can also install from a
+41 error 404 tarball, folder, http url, or git url.
+42 verbose exit [ 1, true ]
